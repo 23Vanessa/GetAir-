@@ -1,2 +1,4 @@
 Apache license for Zephyr libc implementations (zephyr-string.c),
-emmalloc.cpp (from emscripten project) and MIT for rest 
+emmalloc.cpp (from emscripten project) and MIT for rest of the project
+
+Copy

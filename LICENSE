@@ -1,1 +1,2 @@
-Apache license for Zephyr libc implementations
+Apache license for Zephyr libc implementations (zephyr-string.c),
+emmalloc.cpp

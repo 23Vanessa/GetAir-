@@ -1,2 +1,2 @@
 # harfbuzzjs
-Providing [Har
+Providing [HarfBuzz](https://github.com/harfbuzz/ha

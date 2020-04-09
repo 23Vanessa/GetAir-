@@ -1,3 +1,3 @@
 # harfbuzzjs
 Providing [HarfBuzz](https://github.com/harfbuzz/harfbuzz) shaping
-library for 
+library for client/server side JavaScript projects.

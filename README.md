@@ -10,4 +10,4 @@ See the demo [here](https://harfbuzz.github.io/harfbuzzjs/).
 
 ## Download
 Download the pack from [releases tab](https://github.com/harfbuzz/harfbuzzjs/releases)
-of th
+of the project, or just download t

@@ -9,3 +9,4 @@ See the demo [here](https://harfbuzz.github.io/harfbuzzjs/).
 2. `./build.sh`
 
 ## Download
+Download the pack from [r

@@ -15,4 +15,7 @@ demo source is in [gh-pages](https://github.com/harfbuzz/harfbuzzjs/tree/gh-page
 
 ## Usage and testing
 
-##
+### TDLR
+
+```javascript
+hb = re

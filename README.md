@@ -20,4 +20,5 @@ demo source is in [gh-pages](https://github.com/harfbuzz/harfbuzzjs/tree/gh-page
 ```javascript
 hb = require("hbjs.js")
 WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
-  fetch('myfont.ttf').then(function (
+  fetch('myfont.ttf').then(function (data) {
+    return data.arrayBuff

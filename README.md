@@ -19,4 +19,4 @@ demo source is in [gh-pages](https://github.com/harfbuzz/harfbuzzjs/tree/gh-page
 
 ```javascript
 hb = require("hbjs.js")
-WebAssembly.
+WebAssembly.instantiateStreaming(fetch(

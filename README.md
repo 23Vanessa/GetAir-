@@ -18,4 +18,5 @@ demo source is in [gh-pages](https://github.com/harfbuzz/harfbuzzjs/tree/gh-page
 ### TDLR
 
 ```javascript
-hb = re
+hb = require("hbjs.js")
+WebAssembly.

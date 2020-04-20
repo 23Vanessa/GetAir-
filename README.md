@@ -23,4 +23,4 @@ WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
   fetch('myfont.ttf').then(function (data) {
     return data.arrayBuffer();
   }).then(function (fontdata) {
-    var blob = hb.createBlob(fontdata); // Load
+    var blob = hb.createBlob(fontdata); // Load the font data into something Harfbuzz

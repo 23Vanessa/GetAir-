@@ -22,4 +22,5 @@ hb = require("hbjs.js")
 WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
   fetch('myfont.ttf').then(function (data) {
     return data.arrayBuffer();
-  }).then(function (fontdat
+  }).then(function (fontdata) {
+    var blob = hb.c

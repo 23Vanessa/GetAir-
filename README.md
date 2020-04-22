@@ -24,4 +24,4 @@ WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
     return data.arrayBuffer();
   }).then(function (fontdata) {
     var blob = hb.createBlob(fontdata); // Load the font data into something Harfbuzz can use
-    var face =
+    var face = hb.createFace(blob, 0);  // Sel

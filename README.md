@@ -26,4 +26,5 @@ WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
     var blob = hb.createBlob(fontdata); // Load the font data into something Harfbuzz can use
     var face = hb.createFace(blob, 0);  // Select the first font in the file (there's normally only one!)
     var font = hb.createFont(face);     // Create a Harfbuzz font object from the face
-    var buffer = hb.createBuffer();     // Make a buffer to hold some tex
+    var buffer = hb.createBuffer();     // Make a buffer to hold some text
+    buffer.addText('abc')

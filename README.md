@@ -29,4 +29,4 @@ WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
     var buffer = hb.createBuffer();     // Make a buffer to hold some text
     buffer.addText('abc');              // Fill it with some stuff
     buffer.guessSegmentProperties();    // Set script, language and direction
-    hb.s
+    hb.shape(font, buffer);             /

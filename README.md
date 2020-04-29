@@ -28,4 +28,4 @@ WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
     var font = hb.createFont(face);     // Create a Harfbuzz font object from the face
     var buffer = hb.createBuffer();     // Make a buffer to hold some text
     buffer.addText('abc');              // Fill it with some stuff
-    buffer.guessSeg
+    buffer.guessSegmentProperties();    // Set scri

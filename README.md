@@ -32,4 +32,5 @@ WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
     hb.shape(font, buffer);             // Shape the text, determining glyph IDs and positions
     var output = shape.json();
 
+    // Enumerate the glyphs
    

@@ -33,4 +33,5 @@ WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
     var output = shape.json();
 
     // Enumerate the glyphs
-   
+    var xCursor = 0;
+    var yCursor

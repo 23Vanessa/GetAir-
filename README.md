@@ -30,4 +30,6 @@ WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
     buffer.addText('abc');              // Fill it with some stuff
     buffer.guessSegmentProperties();    // Set script, language and direction
     hb.shape(font, buffer);             // Shape the text, determining glyph IDs and positions
-    v
+    var output = shape.json();
+
+   

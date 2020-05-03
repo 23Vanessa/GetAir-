@@ -34,4 +34,5 @@ WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
 
     // Enumerate the glyphs
     var xCursor = 0;
-    var yCursor
+    var yCursor = 0;
+    for (glyph of output) {

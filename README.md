@@ -42,4 +42,5 @@ WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
         var yDisplacement = glyph.dy;
 
         var svgPath = font.glyphToPath(glyphId);
-        // You need
+        // You need to supply this bit
+        d

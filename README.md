@@ -39,4 +39,6 @@ WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
         var glyphId = glyph.g;
         var xAdvance = glyph.ax;
         var xDisplacement = glyph.dx;
-        var yDispla
+        var yDisplacement = glyph.dy;
+
+        var

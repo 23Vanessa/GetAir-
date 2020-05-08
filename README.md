@@ -43,4 +43,4 @@ WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
 
         var svgPath = font.glyphToPath(glyphId);
         // You need to supply this bit
-        d
+        drawAGlyph(svgPath, xCursor + xDispl

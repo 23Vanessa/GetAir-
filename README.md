@@ -47,3 +47,6 @@ WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
 
         xCursor += xAdvance;
     }
+
+    // Release memory
+    buff

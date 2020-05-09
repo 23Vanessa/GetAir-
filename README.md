@@ -60,4 +60,5 @@ More examples:
 
 ### Browser
 
-1. `npx pa
+1. `npx pad.js`
+2. Open `http://12

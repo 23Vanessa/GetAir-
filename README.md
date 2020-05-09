@@ -52,4 +52,7 @@ WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
     buffer.destroy();
     font.destroy();
     face.destroy();
-    blo
+    blob.destroy();
+})
+```
+

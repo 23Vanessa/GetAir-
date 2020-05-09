@@ -50,4 +50,6 @@ WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
 
     // Release memory
     buffer.destroy();
-    font.destroy
+    font.destroy();
+    face.destroy();
+    blo

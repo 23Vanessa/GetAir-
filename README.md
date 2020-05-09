@@ -45,4 +45,5 @@ WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
         // You need to supply this bit
         drawAGlyph(svgPath, xCursor + xDisplacement, yDisplacement);
 
-        xCur
+        xCursor += xAdvance;
+    }

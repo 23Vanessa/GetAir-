@@ -56,3 +56,8 @@ WebAssembly.instantiateStreaming(fetch("hb.wasm")).then(function (result) {
 })
 ```
 
+More examples:
+
+### Browser
+
+1. `npx pa

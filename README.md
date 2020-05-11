@@ -65,4 +65,4 @@ More examples:
 
 ### Node.js
 
-1. `(cd
+1. `(cd examples && node hbjs.exam

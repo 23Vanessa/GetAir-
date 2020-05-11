@@ -61,4 +61,4 @@ More examples:
 ### Browser
 
 1. `npx pad.js`
-2. Open `http://127.0.0.1/examples/hbjs.ex
+2. Open `http://127.0.0.1/examples/hbjs.example.html` or `http://12

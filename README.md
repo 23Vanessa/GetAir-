@@ -65,4 +65,6 @@ More examples:
 
 ### Node.js
 
-1. `(cd examples && node hbjs.exam
+1. `(cd examples && node hbjs.example.node.js)`
+
+We provide a 

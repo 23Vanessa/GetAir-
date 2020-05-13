@@ -67,4 +67,6 @@ More examples:
 
 1. `(cd examples && node hbjs.example.node.js)`
 
-We provide a tiny wrapper (`hbjs.js`) around the main functionality of harfbuzz, but it's also easy to use other parts. (See `example/nohbjs.js` as an example. However, you may need a custom build to expose additiona
+We provide a tiny wrapper (`hbjs.js`) around the main functionality of harfbuzz, but it's also easy to use other parts. (See `example/nohbjs.js` as an example. However, you may need a custom build to expose additional functionality.)
+
+## [npm](https://w

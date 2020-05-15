@@ -75,4 +75,4 @@ how to use it.
 
 ## Need more of the library?
 
-harfbuzzjs uses a stripped-down
+harfbuzzjs uses a stripped-down version of Harfbuzz generated 

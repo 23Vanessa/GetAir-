@@ -73,4 +73,6 @@ We provide a tiny wrapper (`hbjs.js`) around the main functionality of harfbuzz,
 Can be added with `npm i harfbuzzjs` or `yarn add harfbuzzjs`, see the examples for
 how to use it.
 
-## Need mor
+## Need more of the library?
+
+harfbuzzjs

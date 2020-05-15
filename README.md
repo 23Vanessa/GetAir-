@@ -70,4 +70,7 @@ More examples:
 We provide a tiny wrapper (`hbjs.js`) around the main functionality of harfbuzz, but it's also easy to use other parts. (See `example/nohbjs.js` as an example. However, you may need a custom build to expose additional functionality.)
 
 ## [npm](https://www.npmjs.com/package/harfbuzzjs)
-Can be added with `npm i harfbuzzjs` or `yarn add harfbuzzjs`, see the example
+Can be added with `npm i harfbuzzjs` or `yarn add harfbuzzjs`, see the examples for
+how to use it.
+
+## Need mor

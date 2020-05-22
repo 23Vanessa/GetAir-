@@ -85,4 +85,4 @@ If you have extended harfbuzzjs in ways that you think others will also benefit 
 
 ## Using the library in a bigger emscripten project?
 See [harfbuzz port inside emscripten](https://github.com/emscripten-core/emscripten/blob/master/tools/ports/harfbuzz.py)
-and 
+and [emscripten-ports/HarfBuzz](ht

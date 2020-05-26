@@ -86,4 +86,8 @@ If you have extended harfbuzzjs in ways that you think others will also benefit 
 ## Using the library in a bigger emscripten project?
 See [harfbuzz port inside emscripten](https://github.com/emscripten-core/emscripten/blob/master/tools/ports/harfbuzz.py)
 and [emscripten-ports/HarfBuzz](https://github.com/emscripten-ports/HarfBuzz), basically all you need is to use
-`-s USE_HARFBUZZ=
+`-s USE_HARFBUZZ=1` in your build.
+
+## binaryen
+
+O

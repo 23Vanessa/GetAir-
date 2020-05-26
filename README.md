@@ -90,4 +90,4 @@ and [emscripten-ports/HarfBuzz](https://github.com/emscripten-ports/HarfBuzz), b
 
 ## binaryen
 
-O
+Optionally you can install `b

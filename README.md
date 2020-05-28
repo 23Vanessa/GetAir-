@@ -90,4 +90,4 @@ and [emscripten-ports/HarfBuzz](https://github.com/emscripten-ports/HarfBuzz), b
 
 ## binaryen
 
-Optionally you can install `b
+Optionally you can install `binaryen` and use `wasm-opt` l

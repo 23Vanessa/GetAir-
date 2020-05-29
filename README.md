@@ -99,4 +99,5 @@ wasm-opt -Oz hb.wasm -o hb.wasm
 `binaryen` also provides `wasm-dis` which can be used for,
 
 ```
-wasm-di
+wasm-dis hb.wasm | grep export
+wasm-dis hb

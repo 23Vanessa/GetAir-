@@ -96,4 +96,4 @@ Optionally you can install `binaryen` and use `wasm-opt` like:
 wasm-opt -Oz hb.wasm -o hb.wasm
 ```
 
-`binarye
+`binaryen` also provides `wasm-dis` 

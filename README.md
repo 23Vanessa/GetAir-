@@ -93,4 +93,7 @@ and [emscripten-ports/HarfBuzz](https://github.com/emscripten-ports/HarfBuzz), b
 Optionally you can install `binaryen` and use `wasm-opt` like:
 
 ```
-wasm-opt -Oz hb.wa
+wasm-opt -Oz hb.wasm -o hb.wasm
+```
+
+`binarye

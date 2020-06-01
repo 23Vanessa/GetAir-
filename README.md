@@ -104,4 +104,4 @@ wasm-dis hb.wasm | grep import
 ```
 
 with that you can check if the built wasm file only exports things you need and
-doesn't need to import anything, as usual with wasm 
+doesn't need to import anything, as usual with wasm files built here.

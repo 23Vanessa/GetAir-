@@ -100,4 +100,7 @@ wasm-opt -Oz hb.wasm -o hb.wasm
 
 ```
 wasm-dis hb.wasm | grep export
-wasm-dis hb
+wasm-dis hb.wasm | grep import
+```
+
+with t

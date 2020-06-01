@@ -103,4 +103,4 @@ wasm-dis hb.wasm | grep export
 wasm-dis hb.wasm | grep import
 ```
 
-with t
+with that you can check if the built wasm

@@ -5,4 +5,5 @@ em++ \
 	-std=c++11 \
 	-fno-exceptions \
 	-fno-rtti \
-	-fno-threadsafe-statics
+	-fno-threadsafe-statics \
+	-fvisibility-inlines-hidde

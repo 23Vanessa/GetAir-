@@ -2,4 +2,6 @@
 set -e
 
 em++ \
-	-std=c++1
+	-std=c++11 \
+	-fno-exceptions \
+	-fno-rtti

@@ -1,2 +1,5 @@
 #!/bin/bash
-set
+set -e
+
+em++ \
+	-std=c++1

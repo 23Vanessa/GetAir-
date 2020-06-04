@@ -6,4 +6,7 @@ em++ \
 	-fno-exceptions \
 	-fno-rtti \
 	-fno-threadsafe-statics \
-	-fvisibility-inlines-hidde
+	-fvisibility-inlines-hidden \
+	-flto \
+	-Oz \
+	

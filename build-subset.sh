@@ -9,4 +9,6 @@ em++ \
 	-fvisibility-inlines-hidden \
 	-flto \
 	-Oz \
-	
+	-I. \
+	-DHB_TINY \
+	-DHB_

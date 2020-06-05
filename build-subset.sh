@@ -12,4 +12,4 @@ em++ \
 	-I. \
 	-DHB_TINY \
 	-DHB_USE_INTERNAL_QSORT \
-	-DHB_CON
+	-DHB_CONFIG_OVERRIDE_H=\"config-overr

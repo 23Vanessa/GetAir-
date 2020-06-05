@@ -11,4 +11,5 @@ em++ \
 	-Oz \
 	-I. \
 	-DHB_TINY \
-	-DHB_
+	-DHB_USE_INTERNAL_QSORT \
+	-DHB_CON

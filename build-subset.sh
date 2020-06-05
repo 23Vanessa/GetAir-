@@ -15,4 +15,4 @@ em++ \
 	-DHB_CONFIG_OVERRIDE_H=\"config-override-subset.h\" \
 	-DHB_EXPERIMENTAL_API \
 	--no-entry \
-	-s EXPORTED_FUNCTI
+	-s EXPORTED_FUNCTIONS=@hb-subset.symbols 

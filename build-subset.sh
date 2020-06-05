@@ -13,4 +13,6 @@ em++ \
 	-DHB_TINY \
 	-DHB_USE_INTERNAL_QSORT \
 	-DHB_CONFIG_OVERRIDE_H=\"config-override-subset.h\" \
-	-DHB_EXPERIMENTAL_API 
+	-DHB_EXPERIMENTAL_API \
+	--no-entry \
+	-s EXPORTED_FUNCTI

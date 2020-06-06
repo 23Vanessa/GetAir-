@@ -17,4 +17,5 @@ em++ \
 	--no-entry \
 	-s EXPORTED_FUNCTIONS=@hb-subset.symbols \
 	-s INITIAL_MEMORY=65MB \
-	-o 
+	-o hb-subset.wasm \
+	harf

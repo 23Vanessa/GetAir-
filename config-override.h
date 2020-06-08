@@ -1,2 +1,4 @@
 #undef HB_NO_CFF
-#undef HB_NO_OT_
+#undef HB_NO_OT_FONT_CFF
+#undef HB_NO_DRAW
+#un

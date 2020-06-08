@@ -1,1 +1,2 @@
-#unde
+#undef HB_NO_CFF
+#undef HB_NO_OT_

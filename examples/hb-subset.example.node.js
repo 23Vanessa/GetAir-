@@ -29,3 +29,20 @@ const writeFileAsync = require('util').promisify(fs.writeFile);
     const subset = exports.hb_subset_or_fail(face, input);
 
     /* Clean up */
+    exports.hb_subset_input_destroy(input);
+
+    /* Get result blob */
+    const result = exports.hb_face_reference_blob(subset);
+
+    const data = exports.hb_blob_get_data(result, 0);
+    const subsetFontBlob = heapu8.subarray(data, data + exports.hb_blob_get_length(result));
+
+    await writeFileAsync(__dirname + '/Roboto-Black.subset.ttf', subsetFontBlob);
+    console.log(`Wrote subset to: ${__dirname}/Roboto-Black.subset.ttf`);
+
+    /* Clean up */
+    exports.hb_blob_destroy(result);
+    exports.hb_face_destroy(subset);
+    exports.hb_face_destroy(face);
+    exports.free(fontBuffer);
+})();

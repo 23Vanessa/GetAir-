@@ -3,4 +3,5 @@
 <script>
 // instantiateStreaming isn't supported in Safari yet, see nohbjs.html
 WebAssembly.instantiateStreaming(fetch("../hb.wasm")).then(function (result) {
-  fetch('Roboto.abc.ttf').then(function (x
+  fetch('Roboto.abc.ttf').then(function (x) {
+    return x.arrayBuffer();

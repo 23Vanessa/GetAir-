@@ -6,4 +6,4 @@ WebAssembly.instantiateStreaming(fetch("../hb.wasm")).then(function (result) {
   fetch('Roboto.abc.ttf').then(function (x) {
     return x.arrayBuffer();
   }).then(function (blob) {
-    document
+    document.body.innerText = JSON.stringify(

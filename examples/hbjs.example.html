@@ -7,4 +7,4 @@ WebAssembly.instantiateStreaming(fetch("../hb.wasm")).then(function (result) {
     return x.arrayBuffer();
   }).then(function (blob) {
     document.body.innerText = JSON.stringify(example(hbjs(result.instance), new Uint8Array(blob)), undefined, 2);
-  
+    document.body.style.whiteSpace 

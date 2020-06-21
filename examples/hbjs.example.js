@@ -1,1 +1,2 @@
-function example(hb, fontBl
+function example(hb, fontBlob, text) {
+  var blob = hb.creat

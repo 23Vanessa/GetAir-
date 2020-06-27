@@ -3,4 +3,4 @@ function example(hb, fontBlob, text) {
   var face = hb.createFace(blob, 0);
   // console.log(face.getAxisInfos());
   var font = hb.createFont(face);
-  // font.se
+  // font.setVariations({ wdth: 200, wght: 

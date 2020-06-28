@@ -7,4 +7,5 @@ function example(hb, fontBlob, text) {
   font.setScale(1000, 1000); // Optional, if not given will be in font upem
 
   var buffer = hb.createBuffer();
+  buffer.addText(text || 'abc');
   bu

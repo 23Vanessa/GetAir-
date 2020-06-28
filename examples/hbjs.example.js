@@ -4,4 +4,6 @@ function example(hb, fontBlob, text) {
   // console.log(face.getAxisInfos());
   var font = hb.createFont(face);
   // font.setVariations({ wdth: 200, wght: 700 });
-  font.setScale(1000, 1000); // Optional, if not give
+  font.setScale(1000, 1000); // Optional, if not given will be in font upem
+
+  var buff

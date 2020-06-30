@@ -8,4 +8,4 @@ function example(hb, fontBlob, text) {
 
   var buffer = hb.createBuffer();
   buffer.addText(text || 'abc');
-  bu
+  buffer.guessSegmentProper

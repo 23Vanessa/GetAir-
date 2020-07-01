@@ -9,4 +9,4 @@ function example(hb, fontBlob, text) {
   var buffer = hb.createBuffer();
   buffer.addText(text || 'abc');
   buffer.guessSegmentProperties();
-  // buffer.setDirection('ltr'); // opti
+  // buffer.setDirection('ltr'); // optional as can be set by guessSegment

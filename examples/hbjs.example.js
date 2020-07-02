@@ -9,4 +9,5 @@ function example(hb, fontBlob, text) {
   var buffer = hb.createBuffer();
   buffer.addText(text || 'abc');
   buffer.guessSegmentProperties();
-  // buffer.setDirection('ltr'); // optional as can be set by guessSegment
+  // buffer.setDirection('ltr'); // optional as can be set by guessSegmentProperties also
+  hb.shape(font

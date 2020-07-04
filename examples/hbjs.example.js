@@ -11,4 +11,6 @@ function example(hb, fontBlob, text) {
   buffer.guessSegmentProperties();
   // buffer.setDirection('ltr'); // optional as can be set by guessSegmentProperties also
   hb.shape(font, buffer); // features are not supported yet
-  var resul
+  var result = buffer.json(font);
+
+  // returns 

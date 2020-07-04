@@ -13,4 +13,5 @@ function example(hb, fontBlob, text) {
   hb.shape(font, buffer); // features are not supported yet
   var result = buffer.json(font);
 
-  // returns 
+  // returns glyphs paths, totally optional
+  var

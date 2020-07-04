@@ -14,4 +14,5 @@ function example(hb, fontBlob, text) {
   var result = buffer.json(font);
 
   // returns glyphs paths, totally optional
-  var
+  var glyphs = {};
+  result.f

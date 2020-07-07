@@ -19,4 +19,5 @@ function example(hb, fontBlob, text) {
     if (glyphs[x.g]) return;
     glyphs[x.g] = {
       name: font.glyphName(x.g),
-      path: font.gl
+      path: font.glyphToPath(x.g),
+      json: font

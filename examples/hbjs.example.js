@@ -18,4 +18,5 @@ function example(hb, fontBlob, text) {
   result.forEach(function (x) {
     if (glyphs[x.g]) return;
     glyphs[x.g] = {
-      name: font.glyphName(x
+      name: font.glyphName(x.g),
+      path: font.gl

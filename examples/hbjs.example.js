@@ -16,4 +16,5 @@ function example(hb, fontBlob, text) {
   // returns glyphs paths, totally optional
   var glyphs = {};
   result.forEach(function (x) {
-    if (glyp
+    if (glyphs[x.g]) return;
+    glyphs[x.g] = 

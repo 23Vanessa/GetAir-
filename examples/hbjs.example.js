@@ -20,4 +20,6 @@ function example(hb, fontBlob, text) {
     glyphs[x.g] = {
       name: font.glyphName(x.g),
       path: font.glyphToPath(x.g),
-      json: font
+      json: font.glyphToJson(x.g)
+    };
+  });

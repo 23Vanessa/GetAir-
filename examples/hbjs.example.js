@@ -23,3 +23,5 @@ function example(hb, fontBlob, text) {
       json: font.glyphToJson(x.g)
     };
   });
+
+  var unicodes = face.collec

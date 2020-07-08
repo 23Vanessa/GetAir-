@@ -24,4 +24,6 @@ function example(hb, fontBlob, text) {
     };
   });
 
-  var unicodes = face.collec
+  var unicodes = face.collectUnicodes()
+
+  buffer.destroy(

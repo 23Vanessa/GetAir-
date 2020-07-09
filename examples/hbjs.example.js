@@ -28,4 +28,6 @@ function example(hb, fontBlob, text) {
 
   buffer.destroy();
   font.destroy();
-  face.
+  face.destroy();
+  blob.destroy();
+  re

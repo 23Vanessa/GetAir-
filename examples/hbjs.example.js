@@ -30,4 +30,4 @@ function example(hb, fontBlob, text) {
   font.destroy();
   face.destroy();
   blob.destroy();
-  re
+  return { shape: result, glyphs: glyphs

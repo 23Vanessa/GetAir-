@@ -26,4 +26,6 @@ function example(hb, fontBlob, text) {
 
   var unicodes = face.collectUnicodes()
 
-  buffer.destroy(
+  buffer.destroy();
+  font.destroy();
+  face.

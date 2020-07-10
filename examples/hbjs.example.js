@@ -33,4 +33,5 @@ function example(hb, fontBlob, text) {
   return { shape: result, glyphs: glyphs, unicodes: unicodes };
 }
 
-// Should be replaced with som
+// Should be replaced with something more reliable
+try { modul

@@ -32,3 +32,5 @@ function example(hb, fontBlob, text) {
   blob.destroy();
   return { shape: result, glyphs: glyphs, unicodes: unicodes };
 }
+
+// Should be replaced with som

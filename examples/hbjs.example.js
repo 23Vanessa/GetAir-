@@ -34,4 +34,4 @@ function example(hb, fontBlob, text) {
 }
 
 // Should be replaced with something more reliable
-try { modul
+try { module.exports = example; } cat

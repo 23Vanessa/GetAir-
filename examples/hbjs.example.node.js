@@ -1,3 +1,5 @@
 var fs = require('fs');
 var path = require('path');
-var example = require('./hbjs.e
+var example = require('./hbjs.example.js');
+
+require('../').then

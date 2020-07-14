@@ -3,4 +3,4 @@ var path = require('path');
 var example = require('./hbjs.example.js');
 
 require('../').then(function (hbjs) {
-  co
+  console.log(example(hbjs, new Uint8

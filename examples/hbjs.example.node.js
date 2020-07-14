@@ -3,4 +3,4 @@ var path = require('path');
 var example = require('./hbjs.example.js');
 
 require('../').then(function (hbjs) {
-  console.log(example(hbjs, new Uint8
+  console.log(example(hbjs, new Uint8Array(fs.readFileSync(path.resolve(

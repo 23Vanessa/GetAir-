@@ -7,4 +7,5 @@ fetch("../hb.wasm").then(function (x) {
   return x.arrayBuffer();
 }).then(function (wasm) {
   return WebAssembly.instantiate(wasm);
-}).th
+}).then(function (result) {
+  v

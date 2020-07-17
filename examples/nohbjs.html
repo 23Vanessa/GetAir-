@@ -5,4 +5,5 @@ var utf8Encoder = new TextEncoder("utf8");
 // https://bugs.webkit.org/show_bug.cgi?id=173105
 fetch("../hb.wasm").then(function (x) {
   return x.arrayBuffer();
-}).then
+}).then(function (wasm) {
+  return WebA

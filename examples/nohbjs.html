@@ -6,4 +6,5 @@ var utf8Encoder = new TextEncoder("utf8");
 fetch("../hb.wasm").then(function (x) {
   return x.arrayBuffer();
 }).then(function (wasm) {
-  return WebA
+  return WebAssembly.instantiate(wasm);
+}).th

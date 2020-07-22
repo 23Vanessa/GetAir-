@@ -10,4 +10,5 @@ fetch("../hb.wasm").then(function (x) {
 }).then(function (result) {
   var exports = result.instance.exports;
 
-  fetch('Roboto.abc.ttf'
+  fetch('Roboto.abc.ttf').then(function (x) {
+    return 

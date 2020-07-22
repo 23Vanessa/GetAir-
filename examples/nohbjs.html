@@ -8,4 +8,4 @@ fetch("../hb.wasm").then(function (x) {
 }).then(function (wasm) {
   return WebAssembly.instantiate(wasm);
 }).then(function (result) {
-  v
+  var exports = result.instance.exp

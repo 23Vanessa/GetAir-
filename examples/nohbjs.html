@@ -8,4 +8,6 @@ fetch("../hb.wasm").then(function (x) {
 }).then(function (wasm) {
   return WebAssembly.instantiate(wasm);
 }).then(function (result) {
-  var exports = result.instance.exp
+  var exports = result.instance.exports;
+
+  fetch('Roboto.abc.ttf'

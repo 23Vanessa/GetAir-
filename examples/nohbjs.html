@@ -11,4 +11,5 @@ fetch("../hb.wasm").then(function (x) {
   var exports = result.instance.exports;
 
   fetch('Roboto.abc.ttf').then(function (x) {
-    return 
+    return x.arrayBuffer();
+  }).then

@@ -13,4 +13,4 @@ fetch("../hb.wasm").then(function (x) {
   fetch('Roboto.abc.ttf').then(function (x) {
     return x.arrayBuffer();
   }).then(function (fontBlob) {
-    va
+    var heapu8 = new Uint8Array(exports.memory.b

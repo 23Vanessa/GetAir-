@@ -18,4 +18,6 @@ fetch("../hb.wasm").then(function (x) {
     var heapi32 = new Int32Array(exports.memory.buffer);
 
     var fontBuffer = exports.malloc(fontBlob.byteLength);
-    heapu8.set(new Uint8Array(fontBlob), fontB
+    heapu8.set(new Uint8Array(fontBlob), fontBuffer);
+
+    var blob = exports.h

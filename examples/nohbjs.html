@@ -21,4 +21,5 @@ fetch("../hb.wasm").then(function (x) {
     heapu8.set(new Uint8Array(fontBlob), fontBuffer);
 
     var blob = exports.hb_blob_create(fontBuffer, fontBlob.byteLength, 2/*HB_MEMORY_MODE_WRITABLE*/, 0, 0);
-    var face = exports.hb_face_create(
+    var face = exports.hb_face_create(blob, 0);
+    var f

@@ -22,4 +22,6 @@ fetch("../hb.wasm").then(function (x) {
 
     var blob = exports.hb_blob_create(fontBuffer, fontBlob.byteLength, 2/*HB_MEMORY_MODE_WRITABLE*/, 0, 0);
     var face = exports.hb_face_create(blob, 0);
-    var font = exports.hb_font_create(face)
+    var font = exports.hb_font_create(face);
+
+    var buffer = exports.h

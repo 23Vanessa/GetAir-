@@ -27,4 +27,5 @@ fetch("../hb.wasm").then(function (x) {
     var buffer = exports.hb_buffer_create();
     {
       var text = utf8Encoder.encode('abc');
-      var text_ptr = exports.malloc(text.byteLength)
+      var text_ptr = exports.malloc(text.byteLength);
+      heapu8.set(text, text_ptr)

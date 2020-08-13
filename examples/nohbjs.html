@@ -30,4 +30,6 @@ fetch("../hb.wasm").then(function (x) {
       var text_ptr = exports.malloc(text.byteLength);
       heapu8.set(text, text_ptr);
       exports.hb_buffer_add_utf8(buffer, text_ptr, text.byteLength, 0, -1);
-      export
+      exports.free(text_ptr);
+    }
+    expor

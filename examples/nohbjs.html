@@ -32,4 +32,5 @@ fetch("../hb.wasm").then(function (x) {
       exports.hb_buffer_add_utf8(buffer, text_ptr, text.byteLength, 0, -1);
       exports.free(text_ptr);
     }
-    exports.hb_buffer_guess_segment_prope
+    exports.hb_buffer_guess_segment_properties(buffer);
+    // exports

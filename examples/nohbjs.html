@@ -37,4 +37,4 @@ fetch("../hb.wasm").then(function (x) {
 
     exports.hb_shape(font, buffer, 0, 0);
 
-    var length = exp
+    var length = exports.hb_buffer_get_length(buffer)

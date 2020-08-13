@@ -35,4 +35,6 @@ fetch("../hb.wasm").then(function (x) {
     exports.hb_buffer_guess_segment_properties(buffer);
     // exports.hb_buffer_set_direction(5); 4: ltr, 5: rtl, 6: ttb. 7: btt
 
-    exports.hb_shape(font, 
+    exports.hb_shape(font, buffer, 0, 0);
+
+    var length = exp

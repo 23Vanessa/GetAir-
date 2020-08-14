@@ -40,4 +40,5 @@ fetch("../hb.wasm").then(function (x) {
     var length = exports.hb_buffer_get_length(buffer);
     var result = [];
     var infosPtr32 = exports.hb_buffer_get_glyph_infos(buffer, 0) / 4;
-    var positionsPtr32 = exports.hb_buffer_get_glyph_positions(
+    var positionsPtr32 = exports.hb_buffer_get_glyph_positions(buffer, 0) / 4;
+    var infos = h

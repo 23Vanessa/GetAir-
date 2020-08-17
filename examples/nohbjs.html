@@ -43,4 +43,5 @@ fetch("../hb.wasm").then(function (x) {
     var positionsPtr32 = exports.hb_buffer_get_glyph_positions(buffer, 0) / 4;
     var infos = heapu32.subarray(infosPtr32, infosPtr32 + 5 * length);
     var positions = heapi32.subarray(positionsPtr32, positionsPtr32 + 5 * length);
-    
+    for (var i = 0; i < length; ++i) {
+   

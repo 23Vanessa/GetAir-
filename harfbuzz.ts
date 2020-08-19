@@ -152,3 +152,33 @@ export class HarfBuzzFace {
 
   destroy() {
     hb.hb_face_destroy(this.ptr);
+  }
+}
+
+export class HarfBuzzFont {
+  readonly ptr: Pointer
+  readonly unitsPerEM: number
+
+  constructor(face: HarfBuzzFace) {
+    this.ptr = hb.hb_font_create(face.ptr);
+    this.unitsPerEM = face.getUnitsPerEM();
+  }
+
+  setScale(xScale: number, yScale: number) {
+    hb.hb_font_set_scale(this.ptr, xScale, yScale);
+  }
+
+  destroy() {
+    hb.hb_font_destroy(this.ptr);
+  }
+}
+
+export type HarfBuzzDirection = "ltr" | "rtl" | "ttb" | "btt"
+
+class GlyphInformation {
+  readonly GlyphId: number
+  readonly Cluster: number
+  readonly XAdvance: number
+  readonly YAdvance: number
+  readonly XOffset: number
+  readonly YOffset: number

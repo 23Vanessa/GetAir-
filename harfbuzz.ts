@@ -82,3 +82,37 @@ let hb: HarfBuzzExports;
 class CString {
   readonly ptr: Pointer;
   readonly length: number;
+
+  constructor(text: string) {
+    var bytes = hb.utf8Encoder.encode(text);
+    this.ptr = hb.malloc(bytes.byteLength);
+    hb.heapu8.set(bytes, this.ptr);
+    this.length = bytes.byteLength;
+  }
+
+  destroy() {
+    hb.free(this.ptr);
+  }
+}
+
+export class HarfBuzzBlob {
+  readonly ptr: Pointer;
+
+  constructor(data: Uint8Array) {
+    let blobPtr = hb.malloc(data.length);
+    hb.heapu8.set(data, blobPtr);
+    this.ptr = hb.hb_blob_create(blobPtr, data.byteLength, HB_MEMORY_MODE_WRITABLE, blobPtr, hb.free_ptr());
+  }
+
+  destroy() {
+    hb.hb_blob_destroy(this.ptr);
+  }
+}
+
+function typedArrayFromSet<T extends 'u8' | 'u32' | 'i32'>(setPtr: Pointer, arrayType: T) {
+  const heap = hb[`heap${arrayType}`];
+  const bytesPerElment = heap.BYTES_PER_ELEMENT;
+  const setCount = hb.hb_set_get_population(setPtr);
+  const arrayPtr = hb.malloc(
+    setCount * bytesPerElment,
+  );

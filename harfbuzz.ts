@@ -182,3 +182,35 @@ class GlyphInformation {
   readonly YAdvance: number
   readonly XOffset: number
   readonly YOffset: number
+
+  constructor(glyphId: number, cluster: number, xAdvance: number, yAdvance: number, xOffset: number, yOffset: number) {
+    this.GlyphId = glyphId;
+    this.Cluster = cluster;
+    this.XAdvance = xAdvance;
+    this.YAdvance = yAdvance;
+    this.XOffset = xOffset;
+    this.YOffset = yOffset;
+  }
+}
+
+export class HarfBuzzBuffer {
+  readonly ptr: Pointer
+
+  constructor() {
+    this.ptr = hb.hb_buffer_create();
+  }
+
+  addText(text: string) {
+    let str = new CString(text);
+    hb.hb_buffer_add_utf8(this.ptr, str.ptr, str.length, 0, str.length);
+    str.destroy();
+  }
+
+  guessSegmentProperties() {
+    hb.hb_buffer_guess_segment_properties(this.ptr);
+  }
+
+  setDirection(direction: HarfBuzzDirection) {
+    let d = { "ltr": 4, "rtl": 5, "ttb": 6, "btt": 7 }[direction];
+    hb.hb_buffer_set_direction(this.ptr, d);
+  }

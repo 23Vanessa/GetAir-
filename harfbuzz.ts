@@ -116,3 +116,39 @@ function typedArrayFromSet<T extends 'u8' | 'u32' | 'i32'>(setPtr: Pointer, arra
   const arrayPtr = hb.malloc(
     setCount * bytesPerElment,
   );
+  const arrayOffset = arrayPtr / bytesPerElment;
+  const array = heap.subarray(
+    arrayOffset,
+    arrayOffset + setCount,
+  ) as typeof hb[`heap${T}`];
+  heap.set(array, arrayOffset);
+  hb.hb_set_next_many(
+    setPtr,
+    HB_SET_VALUE_INVALID,
+    arrayPtr,
+    setCount,
+  );
+  return array;
+}
+
+export class HarfBuzzFace {
+  readonly ptr: Pointer;
+
+  constructor(blob: HarfBuzzBlob, index: number) {
+    this.ptr = hb.hb_face_create(blob.ptr, index);
+  }
+
+  getUnitsPerEM() {
+    return hb.hb_face_get_upem(this.ptr);
+  }
+
+  collectUnicodes() {
+    const unicodeSetPtr = hb.hb_set_create();
+    hb.hb_face_collect_unicodes(this.ptr, unicodeSetPtr);
+    const result = typedArrayFromSet(unicodeSetPtr, 'u32');
+    hb.hb_set_destroy(unicodeSetPtr);
+    return result;
+  }
+
+  destroy() {
+    hb.hb_face_destroy(this.ptr);

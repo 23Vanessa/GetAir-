@@ -276,3 +276,15 @@ export function loadHarfbuzz(webAssemblyUrl: string): Promise<void> {
 
 export function loadAndCacheFont(fontName: string, fontUrl: string): Promise<void> {
   return fetch(fontUrl).then((response) => {
+    return response.arrayBuffer().then((blob) => {
+      let fontBlob = new Uint8Array(blob);
+      let harfbuzzBlob = new HarfBuzzBlob(fontBlob);
+      let harfbuzzFace = new HarfBuzzFace(harfbuzzBlob, 0);
+      let harfbuzzFont = new HarfBuzzFont(harfbuzzFace);
+
+      harfbuzzFonts.set(fontName, harfbuzzFont);
+      harfbuzzFace.destroy();
+      harfbuzzBlob.destroy();
+    });
+  });
+}

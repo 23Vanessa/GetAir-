@@ -247,3 +247,32 @@ export function shape(text: string, font: HarfBuzzFont, features: any): Array<Gl
   let result = buffer.json();
   buffer.destroy();
   return result;
+}
+
+export function getWidth(text: string, font: HarfBuzzFont, fontSizeInPixel: number, features: any): number {
+  let scale = fontSizeInPixel / font.unitsPerEM;
+  let shapeResult = shape(text, font, features);
+  let totalWidth = shapeResult.map((glyphInformation) => {
+    return glyphInformation.XAdvance;
+  }).reduce((previous, current, i, arr) => {
+    return previous + current;
+  }, 0.0);
+
+  return totalWidth * scale;
+}
+
+export const harfbuzzFonts = new Map<string, HarfBuzzFont>();
+
+export function loadHarfbuzz(webAssemblyUrl: string): Promise<void> {
+  return fetch(webAssemblyUrl).then(response => {
+    return response.arrayBuffer();
+  }).then(wasm => {
+    return WebAssembly.instantiate(wasm);
+  }).then(result => {
+    //@ts-ignore
+    hb = new HarfBuzzExports(result.instance.exports);
+  });
+}
+
+export function loadAndCacheFont(fontName: string, fontUrl: string): Promise<void> {
+  return fetch(fontUrl).then((response) => {

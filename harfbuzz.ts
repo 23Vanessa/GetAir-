@@ -214,3 +214,36 @@ export class HarfBuzzBuffer {
     let d = { "ltr": 4, "rtl": 5, "ttb": 6, "btt": 7 }[direction];
     hb.hb_buffer_set_direction(this.ptr, d);
   }
+
+  json() {
+    var length = hb.hb_buffer_get_length(this.ptr);
+    var result = new Array<GlyphInformation>();
+    var infosPtr32 = hb.hb_buffer_get_glyph_infos(this.ptr, 0) / 4;
+    var positionsPtr32 = hb.hb_buffer_get_glyph_positions(this.ptr, 0) / 4;
+    var infos = hb.heapu32.subarray(infosPtr32, infosPtr32 + 5 * length);
+    var positions = hb.heapi32.subarray(positionsPtr32, positionsPtr32 + 5 * length);
+    for (var i = 0; i < length; ++i) {
+      result.push(new GlyphInformation(
+        infos[i * 5 + 0],
+        infos[i * 5 + 2],
+        positions[i * 5 + 0],
+        positions[i * 5 + 1],
+        positions[i * 5 + 2],
+        positions[i * 5 + 3]));
+    }
+    return result;
+  }
+
+  destroy() {
+    hb.hb_buffer_destroy(this.ptr)
+  }
+}
+
+export function shape(text: string, font: HarfBuzzFont, features: any): Array<GlyphInformation> {
+  let buffer = new HarfBuzzBuffer();
+  buffer.addText(text);
+  buffer.guessSegmentProperties();
+  buffer.shape(font, features);
+  let result = buffer.json();
+  buffer.destroy();
+  return result;

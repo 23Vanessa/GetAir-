@@ -1,4 +1,6 @@
 _hb_blob_create
 _hb_blob_destroy
 _hb_blob_get_data
-_hb_blob_ge
+_hb_blob_get_length
+_hb_face_create
+_hb_face_

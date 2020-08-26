@@ -13,4 +13,6 @@ _hb_set_del
 _hb_set_destroy
 _hb_set_invert
 _hb_set_union
-_hb_subset_input_cre
+_hb_subset_input_create_or_fail
+_hb_subset_input_destroy
+_

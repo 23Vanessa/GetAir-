@@ -5,4 +5,6 @@ _hb_blob_get_length
 _hb_face_create
 _hb_face_destroy
 _hb_face_get_empty
-_hb_face
+_hb_face_reference_blob
+_hb_set_add
+_hb

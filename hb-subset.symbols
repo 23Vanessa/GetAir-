@@ -11,4 +11,6 @@ _hb_set_clear
 _hb_set_create
 _hb_set_del
 _hb_set_destroy
-_hb_set_inver
+_hb_set_invert
+_hb_set_union
+_hb_subset_input_cre

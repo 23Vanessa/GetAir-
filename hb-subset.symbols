@@ -16,4 +16,5 @@ _hb_set_union
 _hb_subset_input_create_or_fail
 _hb_subset_input_destroy
 _hb_subset_input_get_flags
-_hb_subset_input_get_u
+_hb_subset_input_get_user_data
+_hb_subset_input_glyph

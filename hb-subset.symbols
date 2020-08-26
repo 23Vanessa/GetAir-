@@ -7,4 +7,6 @@ _hb_face_destroy
 _hb_face_get_empty
 _hb_face_reference_blob
 _hb_set_add
-_hb
+_hb_set_clear
+_hb_set_create
+_hb_set_

@@ -25,4 +25,4 @@ _hb_subset_input_set_user_data
 _hb_subset_input_unicode_set
 _hb_subset_or_fail
 _malloc
-_f
+_free

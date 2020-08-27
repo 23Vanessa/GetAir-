@@ -18,4 +18,5 @@ _hb_subset_input_destroy
 _hb_subset_input_get_flags
 _hb_subset_input_get_user_data
 _hb_subset_input_glyph_set
+_hb_subset_input_reference
 _hb_subset_input

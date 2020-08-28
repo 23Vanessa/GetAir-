@@ -6,4 +6,4 @@ int
 hbjs_glyph_svg (hb_font_t *font, hb_codepoint_t glyph, char *buf, unsigned buf_size);
 
 unsigned
-hbjs_
+hbjs_shape_with_trace (hb_font_t *fon

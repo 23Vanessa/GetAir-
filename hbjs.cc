@@ -3,4 +3,7 @@
 HB_BEGIN_DECLS
 
 int
-hbjs_glyph_svg (hb_font_t *font, hb_codepoint_t glyph, char *buf, unsi
+hbjs_glyph_svg (hb_font_t *font, hb_codepoint_t glyph, char *buf, unsigned buf_size);
+
+unsigned
+hbjs_

@@ -7,4 +7,4 @@ hbjs_glyph_svg (hb_font_t *font, hb_codepoint_t glyph, char *buf, unsigned buf_s
 
 unsigned
 hbjs_shape_with_trace (hb_font_t *font, hb_buffer_t* buf,
-     
+                       char* fe

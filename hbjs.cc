@@ -9,4 +9,4 @@ unsigned
 hbjs_shape_with_trace (hb_font_t *font, hb_buffer_t* buf,
                        char* featurestring,
                        unsigned int stop_at, unsigned int stop_phase,
-                
+                       char *outbuf, unsigned bu

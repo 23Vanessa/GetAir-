@@ -12,3 +12,8 @@ hbjs_shape_with_trace (hb_font_t *font, hb_buffer_t* buf,
                        char *outbuf, unsigned buf_size);
 
 void *free_ptr(void);
+
+HB_END_DECLS
+
+
+void *free_ptr(

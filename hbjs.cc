@@ -17,3 +17,7 @@ HB_END_DECLS
 
 
 void *free_ptr(void) { return (void *) free; }
+
+enum {
+  HB_SHAPE_DONT_STOP,
+  HB

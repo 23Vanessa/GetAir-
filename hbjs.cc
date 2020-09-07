@@ -20,4 +20,5 @@ void *free_ptr(void) { return (void *) free; }
 
 enum {
   HB_SHAPE_DONT_STOP,
-  HB
+  HB_SHAPE_GSUB_PHASE,
+  HB_

@@ -16,4 +16,4 @@ void *free_ptr(void);
 HB_END_DECLS
 
 
-void *free_ptr(
+void *free_ptr(void) { return (void *) free; }

@@ -30,3 +30,5 @@ struct user_data_t {
               unsigned stop_at_ = 0,
               unsigned stop_phase_ = 0)
     : str(str_)
+    , size(size_)
+    , stop

@@ -28,3 +28,4 @@ struct user_data_t {
   user_data_t(char *str_,
               unsigned size_,
               unsigned stop_at_ = 0,
+              unsigned s

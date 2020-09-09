@@ -26,4 +26,5 @@ enum {
 
 struct user_data_t {
   user_data_t(char *str_,
-    
+              unsigned size_,
+         

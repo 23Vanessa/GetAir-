@@ -24,4 +24,6 @@ enum {
   HB_SHAPE_GPOS_PHASE
 };
 
-struct user_da
+struct user_data_t {
+  user_data_t(char *str_,
+    

@@ -37,4 +37,5 @@ struct user_data_t {
   char *str = nullptr;
   unsigned size = 0;
   unsigned consumed = 0;
-  hb
+  hb_bool_t failure = false;
+  unsigned s

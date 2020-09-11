@@ -32,4 +32,6 @@ struct user_data_t {
     : str(str_)
     , size(size_)
     , stop_at(stop_at_)
-    , stop_
+    , stop_phase(stop_phase_)
+  {}
+  char

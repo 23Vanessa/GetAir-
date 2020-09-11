@@ -34,4 +34,5 @@ struct user_data_t {
     , stop_at(stop_at_)
     , stop_phase(stop_phase_)
   {}
-  char
+  char *str = nullptr;
+  unsigned size

@@ -35,4 +35,6 @@ struct user_data_t {
     , stop_phase(stop_phase_)
   {}
   char *str = nullptr;
-  unsigned size
+  unsigned size = 0;
+  unsigned consumed = 0;
+  hb

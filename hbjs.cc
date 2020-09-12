@@ -56,4 +56,5 @@ _user_data_printf (user_data_t *data, const char *format, ...)
   if (!data || data->failure)
     return;
 
- 
+  va_start(va, format);
+  len

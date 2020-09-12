@@ -46,4 +46,4 @@ struct user_data_t {
 
 
 static void
-_us
+_user_data_printf (user_data_t *data, 

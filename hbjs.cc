@@ -50,4 +50,7 @@ _user_data_printf (user_data_t *data, const char *format, ...)
 {
 #define BUFSIZE 1000
   char buf[BUFSIZE];
-  int le
+  int len;
+  va_list va;
+
+  if (!data || 

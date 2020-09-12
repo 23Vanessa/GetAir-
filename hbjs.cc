@@ -40,4 +40,5 @@ struct user_data_t {
   hb_bool_t failure = false;
   unsigned stop_at = 0;
   unsigned stop_phase = 0;
-  hb_bool_t stopping = fal
+  hb_bool_t stopping = false;
+  unsigned current_pha

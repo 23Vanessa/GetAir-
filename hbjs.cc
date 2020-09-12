@@ -39,4 +39,5 @@ struct user_data_t {
   unsigned consumed = 0;
   hb_bool_t failure = false;
   unsigned stop_at = 0;
-  unsigned stop_phase =
+  unsigned stop_phase = 0;
+  hb_bool_t stopping = fal

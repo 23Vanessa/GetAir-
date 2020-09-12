@@ -41,4 +41,9 @@ struct user_data_t {
   unsigned stop_at = 0;
   unsigned stop_phase = 0;
   hb_bool_t stopping = false;
-  unsigned current_pha
+  unsigned current_phase = 0;
+};
+
+
+static void
+_us

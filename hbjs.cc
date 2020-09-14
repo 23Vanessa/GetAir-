@@ -62,4 +62,8 @@ _user_data_printf (user_data_t *data, const char *format, ...)
 
   if (data->consumed + len >= data->size || len < 0 || len > BUFSIZE)
   {
-      data->fai
+      data->failure = true;
+      return;
+  }
+
+  

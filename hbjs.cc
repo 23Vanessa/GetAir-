@@ -57,4 +57,5 @@ _user_data_printf (user_data_t *data, const char *format, ...)
     return;
 
   va_start(va, format);
-  len = vsnprintf(buf, BUFSIZ
+  len = vsnprintf(buf, BUFSIZE, format, va);
+  va_end(va

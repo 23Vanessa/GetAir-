@@ -58,4 +58,6 @@ _user_data_printf (user_data_t *data, const char *format, ...)
 
   va_start(va, format);
   len = vsnprintf(buf, BUFSIZE, format, va);
-  va_end(va
+  va_end(va);
+
+  if (data->consumed + len >=

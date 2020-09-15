@@ -72,4 +72,4 @@ _user_data_printf (user_data_t *data, const char *format, ...)
 }
 
 static void
-move_to (hb_
+move_to (hb_draw_funcs_t *dfuncs, user_data_t *draw_data,

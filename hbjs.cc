@@ -66,4 +66,4 @@ _user_data_printf (user_data_t *data, const char *format, ...)
       return;
   }
 
-  
+  memcpy (data->str + data->c

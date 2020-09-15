@@ -68,4 +68,8 @@ _user_data_printf (user_data_t *data, const char *format, ...)
 
   memcpy (data->str + data->consumed, buf, len);
   data->consumed += len;
-#undef BUF
+#undef BUFSIZE
+}
+
+static void
+move_to (hb_

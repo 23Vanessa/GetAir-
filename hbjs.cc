@@ -84,4 +84,4 @@ line_to (hb_draw_funcs_t *dfuncs, user_data_t *draw_data, hb_draw_state_t *,
 	 float to_x, float to_y,
 	 void *)
 {
-  _user_data_printf (dra
+  _user_data_printf (draw_data, "L%g,%g", (double)to_x, (d

@@ -100,4 +100,5 @@ quadratic_to (hb_draw_funcs_t *dfuncs, user_data_t *draw_data, hb_draw_state_t *
                      (double)to_y);
 }
 
-static 
+static void
+cubic_to (hb_draw_funcs_

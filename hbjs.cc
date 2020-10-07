@@ -110,4 +110,5 @@ cubic_to (hb_draw_funcs_t *dfuncs, user_data_t *draw_data, hb_draw_state_t *,
   _user_data_printf (draw_data, "C%g,%g %g,%g %g,%g",
                      (double)control1_x,
                      (double)control1_y,
-          
+                     (double)control2_x,
+ 

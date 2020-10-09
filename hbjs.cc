@@ -117,3 +117,4 @@ cubic_to (hb_draw_funcs_t *dfuncs, user_data_t *draw_data, hb_draw_state_t *,
 }
 
 static void
+close_path (hb_draw_funcs_t *df

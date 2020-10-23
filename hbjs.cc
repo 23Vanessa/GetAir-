@@ -125,4 +125,4 @@ close_path (hb_draw_funcs_t *dfuncs, user_data_t *draw_data, hb_draw_state_t *, 
 static hb_draw_funcs_t *funcs = 0;
 
 int
-hbjs_glyph_svg (hb_font_t *font, hb_codepoint_t glyph,
+hbjs_glyph_svg (hb_font_t *font, hb_codepoint_t glyph, char *buf, 

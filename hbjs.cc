@@ -122,4 +122,7 @@ close_path (hb_draw_funcs_t *dfuncs, user_data_t *draw_data, hb_draw_state_t *, 
   _user_data_printf (draw_data, "Z");
 }
 
-static hb_draw_funcs_t *fu
+static hb_draw_funcs_t *funcs = 0;
+
+int
+hbjs_glyph_svg (hb_font

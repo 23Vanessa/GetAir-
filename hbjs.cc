@@ -130,4 +130,5 @@ hbjs_glyph_svg (hb_font_t *font, hb_codepoint_t glyph, char *buf, unsigned buf_s
   if (funcs == 0) /* not the best pattern for multi-threaded apps which is not a concern here */
   {
     funcs = hb_draw_funcs_create (); /* will be leaked */
-    hb_draw_funcs_set_move_to_func (funcs, (hb_draw_move_to_fun
+    hb_draw_funcs_set_move_to_func (funcs, (hb_draw_move_to_func_t) move_to, nullptr, nullptr);
+    hb

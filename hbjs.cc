@@ -131,4 +131,4 @@ hbjs_glyph_svg (hb_font_t *font, hb_codepoint_t glyph, char *buf, unsigned buf_s
   {
     funcs = hb_draw_funcs_create (); /* will be leaked */
     hb_draw_funcs_set_move_to_func (funcs, (hb_draw_move_to_func_t) move_to, nullptr, nullptr);
-    hb
+    hb_draw_funcs_set_line_to_

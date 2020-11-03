@@ -137,4 +137,5 @@ hbjs_glyph_svg (hb_font_t *font, hb_codepoint_t glyph, char *buf, unsigned buf_s
     hb_draw_funcs_set_close_path_func (funcs, (hb_draw_close_path_func_t) close_path, nullptr, nullptr);
   }
 
-  user_data_t d
+  user_data_t draw_data(buf, buf_size);
+  hb_fo

@@ -138,4 +138,4 @@ hbjs_glyph_svg (hb_font_t *font, hb_codepoint_t glyph, char *buf, unsigned buf_s
   }
 
   user_data_t draw_data(buf, buf_size);
-  hb_fo
+  hb_font_get_glyph_shape (font, glyph, fu

@@ -142,4 +142,5 @@ hbjs_glyph_svg (hb_font_t *font, hb_codepoint_t glyph, char *buf, unsigned buf_s
   if (draw_data.failure)
     return -1;
 
-  buf[draw_data.consumed] 
+  buf[draw_data.consumed] = '\0';
+  return draw_data.co

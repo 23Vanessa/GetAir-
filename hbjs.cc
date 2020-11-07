@@ -143,4 +143,7 @@ hbjs_glyph_svg (hb_font_t *font, hb_codepoint_t glyph, char *buf, unsigned buf_s
     return -1;
 
   buf[draw_data.consumed] = '\0';
-  return draw_data.co
+  return draw_data.consumed;
+}
+
+static hb_boo

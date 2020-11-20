@@ -150,4 +150,5 @@ static hb_bool_t do_trace (hb_buffer_t *buffer,
                            hb_font_t   *font,
                            const char  *message,
                            user_data_t *user_data) {
-  unsigned int
+  unsigned int consumed;
+  unsigned int num_glyphs = hb

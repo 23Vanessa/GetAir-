@@ -151,4 +151,4 @@ static hb_bool_t do_trace (hb_buffer_t *buffer,
                            const char  *message,
                            user_data_t *user_data) {
   unsigned int consumed;
-  unsigned int num_glyphs = hb
+  unsigned int num_glyphs = hb_buffer_get_length (buffer);

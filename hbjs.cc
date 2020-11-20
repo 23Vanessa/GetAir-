@@ -154,4 +154,4 @@ static hb_bool_t do_trace (hb_buffer_t *buffer,
   unsigned int num_glyphs = hb_buffer_get_length (buffer);
 
   if (strcmp(message, "start table GSUB") == 0) {
-    user_data->cur
+    user_data->current_phase = HB_SHAPE_GSUB_PHASE;

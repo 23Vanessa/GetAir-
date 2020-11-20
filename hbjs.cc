@@ -155,3 +155,4 @@ static hb_bool_t do_trace (hb_buffer_t *buffer,
 
   if (strcmp(message, "start table GSUB") == 0) {
     user_data->current_phase = HB_SHAPE_GSUB_PHASE;
+  } else if (strcmp(message, "st

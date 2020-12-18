@@ -164,4 +164,5 @@ static hb_bool_t do_trace (hb_buffer_t *buffer,
     user_data->stopping = false;
   }
 
-  // If we ov
+  // If we overflowed, keep going anyway.
+ 

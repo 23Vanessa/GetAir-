@@ -161,4 +161,7 @@ static hb_bool_t do_trace (hb_buffer_t *buffer,
 
 
   if (user_data->current_phase != user_data->stop_phase) {
-    user_data->stopping =
+    user_data->stopping = false;
+  }
+
+  // If we ov

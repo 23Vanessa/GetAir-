@@ -165,4 +165,4 @@ static hb_bool_t do_trace (hb_buffer_t *buffer,
   }
 
   // If we overflowed, keep going anyway.
- 
+  if (user_data->failure) r

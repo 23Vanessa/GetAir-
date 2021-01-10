@@ -169,4 +169,5 @@ static hb_bool_t do_trace (hb_buffer_t *buffer,
 
   if (user_data->stop_phase != HB_SHAPE_DONT_STOP) {
     // Do we need to start stopping?
-    char buf[
+    char buf[12];
+    snprintf (buf, 12, "%d"

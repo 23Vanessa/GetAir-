@@ -168,4 +168,5 @@ static hb_bool_t do_trace (hb_buffer_t *buffer,
   if (user_data->failure) return 1;
 
   if (user_data->stop_phase != HB_SHAPE_DONT_STOP) {
-    // Do we need
+    // Do we need to start stopping?
+    char buf[

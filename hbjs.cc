@@ -171,4 +171,5 @@ static hb_bool_t do_trace (hb_buffer_t *buffer,
     // Do we need to start stopping?
     char buf[12];
     snprintf (buf, 12, "%d", user_data->stop_at);
-    if ((user_data->current_phase == user_data->stop_phase
+    if ((user_data->current_phase == user_data->stop_phase) &&
+        (strncmp(message, 

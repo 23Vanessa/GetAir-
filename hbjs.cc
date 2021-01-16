@@ -174,4 +174,8 @@ static hb_bool_t do_trace (hb_buffer_t *buffer,
     if ((user_data->current_phase == user_data->stop_phase) &&
         (strncmp(message, "end lookup ", 11) == 0) &&
         (strcmp(message + 11, buf) == 0)) {
-      user_data->stop
+      user_data->stopping = true;
+    }
+  }
+
+ 

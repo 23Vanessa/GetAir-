@@ -179,4 +179,4 @@ static hb_bool_t do_trace (hb_buffer_t *buffer,
   }
 
   // If we need to stop, stop.
-  if 
+  if (user_data->stopping) return 

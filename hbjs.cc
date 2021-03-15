@@ -183,4 +183,5 @@ static hb_bool_t do_trace (hb_buffer_t *buffer,
 
   _user_data_printf (user_data, "{\"m\":\"%s\",\"t\":", message);
   hb_buffer_serialize_glyphs(buffer, 0, num_glyphs,
-    user_data->str + user_dat
+    user_data->str + user_data->consumed,
+    user_data->size - user_

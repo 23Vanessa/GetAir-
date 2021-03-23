@@ -188,4 +188,5 @@ static hb_bool_t do_trace (hb_buffer_t *buffer,
     &consumed,
     font,
     HB_BUFFER_SERIALIZE_FORMAT_JSON,
-    HB_BUFFER_SERIALIZE_FLAG_NO_GLY
+    HB_BUFFER_SERIALIZE_FLAG_NO_GLYPH_NAMES);
+  user_data-

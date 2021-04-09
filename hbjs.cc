@@ -190,4 +190,4 @@ static hb_bool_t do_trace (hb_buffer_t *buffer,
     HB_BUFFER_SERIALIZE_FORMAT_JSON,
     HB_BUFFER_SERIALIZE_FLAG_NO_GLYPH_NAMES);
   user_data->consumed += consumed;
-  _user_da
+  _user_data_printf (user_data, "},\

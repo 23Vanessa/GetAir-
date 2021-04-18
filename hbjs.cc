@@ -195,4 +195,5 @@ static hb_bool_t do_trace (hb_buffer_t *buffer,
   return 1;
 }
 
-uns
+unsigned
+hbjs_shape_with_

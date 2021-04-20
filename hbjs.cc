@@ -196,4 +196,5 @@ static hb_bool_t do_trace (hb_buffer_t *buffer,
 }
 
 unsigned
-hbjs_shape_with_trace (hb_font_t *font, hb_buff
+hbjs_shape_with_trace (hb_font_t *font, hb_buffer_t* buf,
+                       ch

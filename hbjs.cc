@@ -202,4 +202,5 @@ hbjs_shape_with_trace (hb_font_t *font, hb_buffer_t* buf,
                        char *outbuf, unsigned buf_size) {
   user_data_t user_data(outbuf, buf_size, stop_at, stop_phase);
 
-  int nu
+  int num_features = 0;
+  hb_feature_t* features = nu

@@ -206,3 +206,4 @@ hbjs_shape_with_trace (hb_font_t *font, hb_buffer_t* buf,
   hb_feature_t* features = nullptr;
 
   if (*featurestring) {
+    /* count the features first, so 

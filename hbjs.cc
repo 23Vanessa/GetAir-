@@ -211,4 +211,6 @@ hbjs_shape_with_trace (hb_font_t *font, hb_buffer_t* buf,
     do {
       num_features++;
       p = strchr (p, ',');
-      i
+      if (p)
+        p++;
+    } whil

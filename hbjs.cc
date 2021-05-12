@@ -215,4 +215,6 @@ hbjs_shape_with_trace (hb_font_t *font, hb_buffer_t* buf,
         p++;
     } while (p);
 
-    features = (hb_feature_t *) calloc (num_features,
+    features = (hb_feature_t *) calloc (num_features, sizeof (*features));
+
+    /

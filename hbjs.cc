@@ -217,4 +217,5 @@ hbjs_shape_with_trace (hb_font_t *font, hb_buffer_t* buf,
 
     features = (hb_feature_t *) calloc (num_features, sizeof (*features));
 
-    /
+    /* now do the actual parsing */
+   

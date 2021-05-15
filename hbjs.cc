@@ -220,4 +220,5 @@ hbjs_shape_with_trace (hb_font_t *font, hb_buffer_t* buf,
     /* now do the actual parsing */
     p = featurestring;
     num_features = 0;
-    while (p && *p
+    while (p && *p) {
+      char *end = strchr (p, ','

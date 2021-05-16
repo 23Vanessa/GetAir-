@@ -223,4 +223,5 @@ hbjs_shape_with_trace (hb_font_t *font, hb_buffer_t* buf,
     while (p && *p) {
       char *end = strchr (p, ',');
       if (hb_feature_from_string (p, end ? end - p : -1, &features[num_features]))
-     
+        num_features++;
+      p = end 

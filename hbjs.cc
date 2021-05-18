@@ -228,4 +228,4 @@ hbjs_shape_with_trace (hb_font_t *font, hb_buffer_t* buf,
     }
   }
 
-  hb_buffer_set_message_
+  hb_buffer_set_message_func (buf, (hb_buffer_messa

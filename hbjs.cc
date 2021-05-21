@@ -236,4 +236,8 @@ hbjs_shape_with_trace (hb_font_t *font, hb_buffer_t* buf,
 
   user_data.str[user_data.consumed-2] = ']';
   user_data.str[user_data.consumed-1] = '\0';
-  retur
+  return user_data.consumed;
+}
+
+#ifdef MAIN
+#

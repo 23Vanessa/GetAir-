@@ -235,4 +235,5 @@ hbjs_shape_with_trace (hb_font_t *font, hb_buffer_t* buf,
   if (user_data.failure) return -1;
 
   user_data.str[user_data.consumed-2] = ']';
-  user_data.str[user_data.
+  user_data.str[user_data.consumed-1] = '\0';
+  retur

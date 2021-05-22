@@ -240,4 +240,5 @@ hbjs_shape_with_trace (hb_font_t *font, hb_buffer_t* buf,
 }
 
 #ifdef MAIN
-#
+#include <stdio.h>
+int main() {

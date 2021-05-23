@@ -242,4 +242,4 @@ hbjs_shape_with_trace (hb_font_t *font, hb_buffer_t* buf,
 #ifdef MAIN
 #include <stdio.h>
 int main() {
-    hb_blob_t *blob = hb_blob_create_from_file ("/home/ebrahim/Desktop/harfbuzzjs/ha
+    hb_blob_t *blob = hb_blob_create_from_file ("/home/ebrahim/Desktop/harfbuzzjs/harfbuzz/test/subset/data/font

@@ -244,4 +244,5 @@ hbjs_shape_with_trace (hb_font_t *font, hb_buffer_t* buf,
 int main() {
     hb_blob_t *blob = hb_blob_create_from_file ("/home/ebrahim/Desktop/harfbuzzjs/harfbuzz/test/subset/data/fonts/Roboto-Regular.ttf");
     hb_face_t *face = hb_face_create (blob, 0);
-    hb_blob_destroy 
+    hb_blob_destroy (blob);
+    hb_font_t *font = 

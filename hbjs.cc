@@ -246,4 +246,5 @@ int main() {
     hb_face_t *face = hb_face_create (blob, 0);
     hb_blob_destroy (blob);
     hb_font_t *font = hb_font_create (face);
-    
+    hb_face_destroy (face);
+    c

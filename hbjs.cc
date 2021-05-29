@@ -248,4 +248,5 @@ int main() {
     hb_font_t *font = hb_font_create (face);
     hb_face_destroy (face);
     char buf[1024];
-    buf[0] = '\
+    buf[0] = '\0';
+    printf ("%d 

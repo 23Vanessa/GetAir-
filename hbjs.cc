@@ -249,4 +249,4 @@ int main() {
     hb_face_destroy (face);
     char buf[1024];
     buf[0] = '\0';
-    printf ("%d 
+    printf ("%d %d\n", hb_blob_get_length (blob

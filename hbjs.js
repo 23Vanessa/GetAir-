@@ -1,1 +1,4 @@
-function hbjs(i
+function hbjs(instance) {
+  'use strict';
+
+  v

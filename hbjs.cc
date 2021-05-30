@@ -251,4 +251,6 @@ int main() {
     buf[0] = '\0';
     printf ("%d %d\n", hb_blob_get_length (blob), hbjs_ot_glyph_svg (font, 0, buf, sizeof (buf)));
     puts (buf);
-    hb_font_destroy (
+    hb_font_destroy (font);
+}
+#endif

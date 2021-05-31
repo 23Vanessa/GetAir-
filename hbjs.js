@@ -3,4 +3,4 @@ function hbjs(instance) {
 
   var exports = instance.exports;
   var heapu8 = new Uint8Array(exports.memory.buffer);
-  va
+  var heapu32 = new Uint32Array(ex

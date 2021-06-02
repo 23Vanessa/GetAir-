@@ -5,4 +5,5 @@ function hbjs(instance) {
   var heapu8 = new Uint8Array(exports.memory.buffer);
   var heapu32 = new Uint32Array(exports.memory.buffer);
   var heapi32 = new Int32Array(exports.memory.buffer);
-  var heapf32 = new Float32Array(exports
+  var heapf32 = new Float32Array(exports.memory.buffer);
+  var utf8De

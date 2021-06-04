@@ -8,4 +8,5 @@ function hbjs(instance) {
   var heapf32 = new Float32Array(exports.memory.buffer);
   var utf8Decoder = new TextDecoder("utf8");
 
-  var HB_MEMORY_MODE_WR
+  var HB_MEMORY_MODE_WRITABLE = 2;
+  var HB_S

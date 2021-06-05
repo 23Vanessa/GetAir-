@@ -11,4 +11,5 @@ function hbjs(instance) {
   var HB_MEMORY_MODE_WRITABLE = 2;
   var HB_SET_VALUE_INVALID = -1;
 
-  functio
+  function hb_tag(s) {
+    return

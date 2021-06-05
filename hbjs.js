@@ -12,4 +12,5 @@ function hbjs(instance) {
   var HB_SET_VALUE_INVALID = -1;
 
   function hb_tag(s) {
-    return
+    return (
+      (s.charCodeAt(0) & 0xFF) <

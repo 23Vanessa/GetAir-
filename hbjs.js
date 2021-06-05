@@ -9,4 +9,6 @@ function hbjs(instance) {
   var utf8Decoder = new TextDecoder("utf8");
 
   var HB_MEMORY_MODE_WRITABLE = 2;
-  var HB_S
+  var HB_SET_VALUE_INVALID = -1;
+
+  functio

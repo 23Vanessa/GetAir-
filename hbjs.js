@@ -14,4 +14,5 @@ function hbjs(instance) {
   function hb_tag(s) {
     return (
       (s.charCodeAt(0) & 0xFF) << 24 |
-      (s.charCo
+      (s.charCodeAt(1) & 0xFF) << 16 |
+      (

@@ -20,4 +20,6 @@ function hbjs(instance) {
     );
   }
 
-  funct
+  function _hb_untag(tag) {
+    return [
+      St

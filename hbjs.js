@@ -16,4 +16,8 @@ function hbjs(instance) {
       (s.charCodeAt(0) & 0xFF) << 24 |
       (s.charCodeAt(1) & 0xFF) << 16 |
       (s.charCodeAt(2) & 0xFF) <<  8 |
-      (s.charCodeAt(3) & 0
+      (s.charCodeAt(3) & 0xFF) <<  0
+    );
+  }
+
+  funct

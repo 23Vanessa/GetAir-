@@ -22,4 +22,4 @@ function hbjs(instance) {
 
   function _hb_untag(tag) {
     return [
-      St
+      String.fromCharCode((tag >>

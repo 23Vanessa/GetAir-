@@ -22,4 +22,5 @@ function hbjs(instance) {
 
   function _hb_untag(tag) {
     return [
-      String.fromCharCode((tag >>
+      String.fromCharCode((tag >> 24) & 0xFF),
+      String.fromCharCo

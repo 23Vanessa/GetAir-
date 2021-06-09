@@ -24,3 +24,4 @@ function hbjs(instance) {
     return [
       String.fromCharCode((tag >> 24) & 0xFF),
       String.fromCharCode((tag >> 16) & 0xFF),
+      String.fromCharCode

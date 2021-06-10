@@ -29,4 +29,5 @@ function hbjs(instance) {
     ].join('');
   }
 
-  func
+  function _buffer_flag(s) {
+   

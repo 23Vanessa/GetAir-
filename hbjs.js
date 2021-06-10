@@ -25,4 +25,8 @@ function hbjs(instance) {
       String.fromCharCode((tag >> 24) & 0xFF),
       String.fromCharCode((tag >> 16) & 0xFF),
       String.fromCharCode((tag >>  8) & 0xFF),
-      String.fromCharCode((tag >>  0) & 0
+      String.fromCharCode((tag >>  0) & 0xFF)
+    ].join('');
+  }
+
+  func

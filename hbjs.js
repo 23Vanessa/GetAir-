@@ -30,4 +30,4 @@ function hbjs(instance) {
   }
 
   function _buffer_flag(s) {
-   
+    if (s == "BOT") { return 0

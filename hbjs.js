@@ -33,4 +33,4 @@ function hbjs(instance) {
     if (s == "BOT") { return 0x1; }
     if (s == "EOT") { return 0x2; }
     if (s == "PRESERVE_DEFAULT_IGNORABLES") { return 0x4; }
-    if (s
+    if (s == "REMOVE_DEFAULT_IGNORABLE

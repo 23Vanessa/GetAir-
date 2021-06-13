@@ -32,4 +32,4 @@ function hbjs(instance) {
   function _buffer_flag(s) {
     if (s == "BOT") { return 0x1; }
     if (s == "EOT") { return 0x2; }
-    if (s == "PRES
+    if (s == "PRESERVE_DEFAULT_IGNORABL

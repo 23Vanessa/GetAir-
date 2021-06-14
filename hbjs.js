@@ -35,4 +35,8 @@ function hbjs(instance) {
     if (s == "PRESERVE_DEFAULT_IGNORABLES") { return 0x4; }
     if (s == "REMOVE_DEFAULT_IGNORABLES") { return 0x8; }
     if (s == "DO_NOT_INSERT_DOTTED_CIRCLE") { return 0x10; }
-    return 0x
+    return 0x0;
+  }
+
+  /**
+  * Create an object r

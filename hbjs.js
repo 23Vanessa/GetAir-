@@ -34,4 +34,5 @@ function hbjs(instance) {
     if (s == "EOT") { return 0x2; }
     if (s == "PRESERVE_DEFAULT_IGNORABLES") { return 0x4; }
     if (s == "REMOVE_DEFAULT_IGNORABLES") { return 0x8; }
-    if (s == "DO_NOT_INSERT_DOTTED_CIRCLE
+    if (s == "DO_NOT_INSERT_DOTTED_CIRCLE") { return 0x10; }
+    return 0x

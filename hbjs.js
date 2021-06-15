@@ -39,4 +39,4 @@ function hbjs(instance) {
   }
 
   /**
-  * Create an object r
+  * Create an object representing a Harfbuz

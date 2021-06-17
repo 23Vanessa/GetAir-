@@ -40,4 +40,6 @@ function hbjs(instance) {
 
   /**
   * Create an object representing a Harfbuzz blob.
-  * @param {string} blob A blob of binary data (usually the 
+  * @param {string} blob A blob of binary data (usually the contents of a font file).
+  **/
+  

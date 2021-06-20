@@ -43,4 +43,5 @@ function hbjs(instance) {
   * @param {string} blob A blob of binary data (usually the contents of a font file).
   **/
   function createBlob(blob) {
-    var blobPtr = exports.
+    var blobPtr = exports.malloc(blob.byteLength);
+    he

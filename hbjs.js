@@ -42,4 +42,5 @@ function hbjs(instance) {
   * Create an object representing a Harfbuzz blob.
   * @param {string} blob A blob of binary data (usually the contents of a font file).
   **/
-  function createBlob(blob)
+  function createBlob(blob) {
+    var blobPtr = exports.

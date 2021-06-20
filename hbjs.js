@@ -44,4 +44,4 @@ function hbjs(instance) {
   **/
   function createBlob(blob) {
     var blobPtr = exports.malloc(blob.byteLength);
-    he
+    heapu8.set(new Uint8Array(blob

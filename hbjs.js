@@ -45,4 +45,6 @@ function hbjs(instance) {
   function createBlob(blob) {
     var blobPtr = exports.malloc(blob.byteLength);
     heapu8.set(new Uint8Array(blob), blobPtr);
-    var ptr = exports.hb_blob_create(blobPtr, blob.byteLength, HB_MEMORY_MODE_WRITABLE, blobPtr, exports.free_ptr(
+    var ptr = exports.hb_blob_create(blobPtr, blob.byteLength, HB_MEMORY_MODE_WRITABLE, blobPtr, exports.free_ptr());
+    return {
+      ptr:

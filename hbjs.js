@@ -49,4 +49,6 @@ function hbjs(instance) {
     return {
       ptr: ptr,
       /**
-      * Free
+      * Free the object.
+      */
+ 

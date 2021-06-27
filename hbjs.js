@@ -56,4 +56,4 @@ function hbjs(instance) {
   }
 
   /**
-   * R
+   * Return the typed array of HarfBuzz

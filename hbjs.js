@@ -57,4 +57,4 @@ function hbjs(instance) {
 
   /**
    * Return the typed array of HarfBuzz set contents.
-   * @template {typeof Uint8Array | typeof Uint32Array | typeof Int32Arr
+   * @template {typeof Uint8Array | typeof Uint32Array | typeof Int32Array | typeof Float32Array} T

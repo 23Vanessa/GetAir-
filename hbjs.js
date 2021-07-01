@@ -61,3 +61,5 @@ function hbjs(instance) {
    * @param {number} setPtr Pointer of set
    * @param {T} arrayClass Typed array class
    * @returns {InstanceType<T>} Typed array instance
+   */
+  function typedArrayFromSet(

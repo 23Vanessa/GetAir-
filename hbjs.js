@@ -63,4 +63,5 @@ function hbjs(instance) {
    * @returns {InstanceType<T>} Typed array instance
    */
   function typedArrayFromSet(setPtr, arrayClass) {
-  
+    let heap = heapu8;
+ 

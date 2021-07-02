@@ -62,4 +62,5 @@ function hbjs(instance) {
    * @param {T} arrayClass Typed array class
    * @returns {InstanceType<T>} Typed array instance
    */
-  function typedArrayFromSet(
+  function typedArrayFromSet(setPtr, arrayClass) {
+  

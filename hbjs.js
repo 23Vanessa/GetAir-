@@ -64,4 +64,6 @@ function hbjs(instance) {
    */
   function typedArrayFromSet(setPtr, arrayClass) {
     let heap = heapu8;
-    if (arrayClass === Uint3
+    if (arrayClass === Uint32Array) {
+      heap = heapu32;
+    }

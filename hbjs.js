@@ -70,4 +70,5 @@ function hbjs(instance) {
       heap = heapi32;
     } else if (arrayClass === Float32Array) {
       heap = heapf32;
-   
+    }
+    const bytesPerElment = ar

@@ -68,4 +68,4 @@ function hbjs(instance) {
       heap = heapu32;
     } else if (arrayClass === Int32Array) {
       heap = heapi32;
-    } else if (
+    } else if (arrayClass === Float32Arr

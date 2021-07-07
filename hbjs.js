@@ -73,4 +73,4 @@ function hbjs(instance) {
     }
     const bytesPerElment = arrayClass.BYTES_PER_ELEMENT;
     const setCount = exports.hb_set_get_population(setPtr);
-    const array
+    const arrayPtr = exports.mall

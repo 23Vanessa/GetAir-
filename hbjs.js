@@ -72,4 +72,5 @@ function hbjs(instance) {
       heap = heapf32;
     }
     const bytesPerElment = arrayClass.BYTES_PER_ELEMENT;
-    const setCount = exports.hb_se
+    const setCount = exports.hb_set_get_population(setPtr);
+    const array

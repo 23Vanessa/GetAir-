@@ -75,4 +75,5 @@ function hbjs(instance) {
     const setCount = exports.hb_set_get_population(setPtr);
     const arrayPtr = exports.malloc(
       setCount * bytesPerElment,
-  
+    );
+    const arrayOffset = arr

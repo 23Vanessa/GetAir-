@@ -76,4 +76,5 @@ function hbjs(instance) {
     const arrayPtr = exports.malloc(
       setCount * bytesPerElment,
     );
-    const arrayOffset = arr
+    const arrayOffset = arrayPtr / bytesPerElment;
+    const 

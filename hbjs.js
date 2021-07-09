@@ -77,4 +77,5 @@ function hbjs(instance) {
       setCount * bytesPerElment,
     );
     const arrayOffset = arrayPtr / bytesPerElment;
-    const 
+    const array = heap.subarray(
+   

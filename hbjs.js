@@ -82,4 +82,6 @@ function hbjs(instance) {
       arrayOffset + setCount,
     );
     heap.set(array, arrayOffset);
-    exports.hb_set_next_man
+    exports.hb_set_next_many(
+      setPtr,
+      HB_SET_VALU

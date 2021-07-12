@@ -88,4 +88,8 @@ function hbjs(instance) {
       arrayPtr,
       setCount,
     );
-    return a
+    return array;
+  }
+
+  /**
+  * Create an o

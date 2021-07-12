@@ -86,4 +86,6 @@ function hbjs(instance) {
       setPtr,
       HB_SET_VALUE_INVALID,
       arrayPtr,
-      s
+      setCount,
+    );
+    return a

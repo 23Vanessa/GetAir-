@@ -92,4 +92,4 @@ function hbjs(instance) {
   }
 
   /**
-  * Create an o
+  * Create an object representing a Harfbuzz

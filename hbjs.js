@@ -94,4 +94,4 @@ function hbjs(instance) {
   /**
   * Create an object representing a Harfbuzz face.
   * @param {object} blob An object returned from `createBlob`.
-  * @param
+  * @param {number} index The index 

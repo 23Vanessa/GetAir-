@@ -97,4 +97,5 @@ function hbjs(instance) {
   * @param {number} index The index of the font in the blob. (0 for most files,
   *  or a 0-indexed font number if the `blob` came form a TTC/OTC file.)
   **/
-  function createFace
+  function createFace(blob, index) {
+    var ptr = 

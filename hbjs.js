@@ -99,3 +99,4 @@ function hbjs(instance) {
   **/
   function createFace(blob, index) {
     var ptr = exports.hb_face_create(blob.ptr, index);
+    const upem = exports

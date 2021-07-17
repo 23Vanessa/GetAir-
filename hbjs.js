@@ -98,4 +98,4 @@ function hbjs(instance) {
   *  or a 0-indexed font number if the `blob` came form a TTC/OTC file.)
   **/
   function createFace(blob, index) {
-    var ptr = 
+    var ptr = exports.hb_face_create(blob.ptr, index);

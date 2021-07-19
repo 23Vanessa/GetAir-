@@ -104,4 +104,4 @@ function hbjs(instance) {
       ptr: ptr,
       upem,
       /**
-   
+       * Return the binary contents of an 

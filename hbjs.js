@@ -102,4 +102,6 @@ function hbjs(instance) {
     const upem = exports.hb_face_get_upem(ptr);
     return {
       ptr: ptr,
-     
+      upem,
+      /**
+   

@@ -105,4 +105,5 @@ function hbjs(instance) {
       upem,
       /**
        * Return the binary contents of an OpenType table.
-       * @p
+       * @param {string} table Table name
+      

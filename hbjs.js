@@ -107,4 +107,5 @@ function hbjs(instance) {
        * Return the binary contents of an OpenType table.
        * @param {string} table Table name
        */
-      reference_table: function
+      reference_table: function(table) {
+        var blob = e

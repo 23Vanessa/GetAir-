@@ -108,4 +108,4 @@ function hbjs(instance) {
        * @param {string} table Table name
        */
       reference_table: function(table) {
-        var blob = e
+        var blob = exports.hb_face_reference_table

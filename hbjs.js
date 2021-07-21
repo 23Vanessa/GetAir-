@@ -108,4 +108,5 @@ function hbjs(instance) {
        * @param {string} table Table name
        */
       reference_table: function(table) {
-        var blob = exports.hb_face_reference_table
+        var blob = exports.hb_face_reference_table(ptr, hb_tag(table));
+        var length = 

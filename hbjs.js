@@ -112,4 +112,4 @@ function hbjs(instance) {
         var length = exports.hb_blob_get_length(blob);
         if (!length) { return; }
         var blobptr = exports.hb_blob_get_data(blob, null);
-        var table_string = h
+        var table_string = heapu8.subarray(blobptr, blobptr

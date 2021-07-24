@@ -111,4 +111,5 @@ function hbjs(instance) {
         var blob = exports.hb_face_reference_table(ptr, hb_tag(table));
         var length = exports.hb_blob_get_length(blob);
         if (!length) { return; }
-        var blobptr = exports.hb_blob_get_data(blob, null
+        var blobptr = exports.hb_blob_get_data(blob, null);
+        var table_string = h

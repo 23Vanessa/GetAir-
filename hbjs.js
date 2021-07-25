@@ -116,4 +116,5 @@ function hbjs(instance) {
         return table_string;
       },
       /**
-       * Ret
+       * Return variation axis infos
+       *

@@ -117,4 +117,5 @@ function hbjs(instance) {
       },
       /**
        * Return variation axis infos
-       *
+       */
+      getAxisInfos: function() 

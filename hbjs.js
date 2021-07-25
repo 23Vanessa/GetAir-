@@ -118,4 +118,5 @@ function hbjs(instance) {
       /**
        * Return variation axis infos
        */
-      getAxisInfos: function() 
+      getAxisInfos: function() {
+        var axis = expo

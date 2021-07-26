@@ -119,4 +119,5 @@ function hbjs(instance) {
        * Return variation axis infos
        */
       getAxisInfos: function() {
-        var axis = expo
+        var axis = exports.malloc(64 * 32);
+        var c = exp

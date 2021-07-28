@@ -121,4 +121,5 @@ function hbjs(instance) {
       getAxisInfos: function() {
         var axis = exports.malloc(64 * 32);
         var c = exports.malloc(4);
-        heapu32[c / 4] =
+        heapu32[c / 4] = 64;
+        exports.hb_o

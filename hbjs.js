@@ -124,4 +124,4 @@ function hbjs(instance) {
         heapu32[c / 4] = 64;
         exports.hb_ot_var_get_axis_infos(ptr, 0, c, axis);
         var result = {};
-        Array.
+        Array.from({ length: heapu32[c / 4]

@@ -126,4 +126,5 @@ function hbjs(instance) {
         var result = {};
         Array.from({ length: heapu32[c / 4] }).forEach(function (_, i) {
           result[_hb_untag(heapu32[axis / 4 + i * 8 + 1])] = {
-            min: heapf32[axis / 4 +
+            min: heapf32[axis / 4 + i * 8 + 4],
+            

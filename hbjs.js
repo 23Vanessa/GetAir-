@@ -128,4 +128,7 @@ function hbjs(instance) {
           result[_hb_untag(heapu32[axis / 4 + i * 8 + 1])] = {
             min: heapf32[axis / 4 + i * 8 + 4],
             default: heapf32[axis / 4 + i * 8 + 5],
-            max: heapf32[axis / 4 + i 
+            max: heapf32[axis / 4 + i * 8 + 6]
+          };
+        });
+ 

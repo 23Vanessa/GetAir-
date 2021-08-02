@@ -131,4 +131,5 @@ function hbjs(instance) {
             max: heapf32[axis / 4 + i * 8 + 6]
           };
         });
- 
+        exports.free(c);
+       

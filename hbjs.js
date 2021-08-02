@@ -132,4 +132,4 @@ function hbjs(instance) {
           };
         });
         exports.free(c);
-       
+        exports.free(a

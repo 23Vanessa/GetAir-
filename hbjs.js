@@ -133,4 +133,6 @@ function hbjs(instance) {
         });
         exports.free(c);
         exports.free(axis);
-        return resul
+        return result;
+      },
+      /**

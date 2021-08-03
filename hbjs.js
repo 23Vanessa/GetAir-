@@ -136,3 +136,4 @@ function hbjs(instance) {
         return result;
       },
       /**
+       * Return unicodes

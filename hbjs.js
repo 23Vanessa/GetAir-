@@ -136,4 +136,6 @@ function hbjs(instance) {
         return result;
       },
       /**
-       * Return unicodes
+       * Return unicodes the face supports
+       */
+     

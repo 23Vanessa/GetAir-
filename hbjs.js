@@ -139,4 +139,4 @@ function hbjs(instance) {
        * Return unicodes the face supports
        */
       collectUnicodes: function() {
-        var unicodeSetPt
+        var unicodeSetPtr = exports.hb_set_create();

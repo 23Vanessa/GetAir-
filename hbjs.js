@@ -138,4 +138,5 @@ function hbjs(instance) {
       /**
        * Return unicodes the face supports
        */
-      collectUnicodes: function(
+      collectUnicodes: function() {
+        var unicodeSetPt

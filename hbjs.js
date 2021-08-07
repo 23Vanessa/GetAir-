@@ -141,4 +141,4 @@ function hbjs(instance) {
       collectUnicodes: function() {
         var unicodeSetPtr = exports.hb_set_create();
         exports.hb_face_collect_unicodes(ptr, unicodeSetPtr);
-        var result = typedArray
+        var result = typedArrayFromSet(unicodeSetPtr, Uint32Array);

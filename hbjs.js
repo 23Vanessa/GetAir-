@@ -143,4 +143,7 @@ function hbjs(instance) {
         exports.hb_face_collect_unicodes(ptr, unicodeSetPtr);
         var result = typedArrayFromSet(unicodeSetPtr, Uint32Array);
         exports.hb_set_destroy(ptr);
-        return resu
+        return result;
+      },
+      /**
+     

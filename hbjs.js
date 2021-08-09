@@ -149,4 +149,4 @@ function hbjs(instance) {
        * Free the object.
        */
       destroy: function () {
-      
+        exports.hb_face_destroy(

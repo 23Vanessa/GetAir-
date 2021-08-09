@@ -148,4 +148,5 @@ function hbjs(instance) {
       /**
        * Free the object.
        */
- 
+      destroy: function () {
+      

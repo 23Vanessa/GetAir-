@@ -154,4 +154,4 @@ function hbjs(instance) {
     };
   }
 
-  var 
+  var pathBufferSize = 65536;

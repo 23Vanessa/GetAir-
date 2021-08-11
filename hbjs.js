@@ -154,4 +154,5 @@ function hbjs(instance) {
     };
   }
 
-  var pathBufferSize = 65536; // should be enough 
+  var pathBufferSize = 65536; // should be enough for most glyphs
+  var pathBuffe

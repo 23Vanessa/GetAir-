@@ -158,4 +158,7 @@ function hbjs(instance) {
   var pathBuffer = exports.malloc(pathBufferSize); // permanently allocated
 
   var nameBufferSize = 256; // should be enough for most glyphs
-  var nameBuffer = exports.malloc(nameBufferSize); // perman
+  var nameBuffer = exports.malloc(nameBufferSize); // permanently allocated
+
+  /**
+  

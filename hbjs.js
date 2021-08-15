@@ -161,4 +161,4 @@ function hbjs(instance) {
   var nameBuffer = exports.malloc(nameBufferSize); // permanently allocated
 
   /**
-  
+  * Create an object represe

@@ -161,4 +161,5 @@ function hbjs(instance) {
   var nameBuffer = exports.malloc(nameBufferSize); // permanently allocated
 
   /**
-  * Create an object represe
+  * Create an object representing a Harfbuzz font.
+  * @param {object} 

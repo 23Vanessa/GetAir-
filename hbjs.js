@@ -162,4 +162,5 @@ function hbjs(instance) {
 
   /**
   * Create an object representing a Harfbuzz font.
-  * @param {object} blob An object returned 
+  * @param {object} blob An object returned from `createFace`.
+  *

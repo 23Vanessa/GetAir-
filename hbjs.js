@@ -165,4 +165,6 @@ function hbjs(instance) {
   * @param {object} blob An object returned from `createFace`.
   **/
   function createFont(face) {
-    var ptr = exports.hb_
+    var ptr = exports.hb_font_create(face.ptr);
+
+    /*

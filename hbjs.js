@@ -164,4 +164,5 @@ function hbjs(instance) {
   * Create an object representing a Harfbuzz font.
   * @param {object} blob An object returned from `createFace`.
   **/
-  function createFont(
+  function createFont(face) {
+    var ptr = exports.hb_

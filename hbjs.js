@@ -168,4 +168,5 @@ function hbjs(instance) {
     var ptr = exports.hb_font_create(face.ptr);
 
     /**
-    * Return a glyph as a
+    * Return a glyph as an SVG path string.
+    * @

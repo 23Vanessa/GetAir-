@@ -169,4 +169,4 @@ function hbjs(instance) {
 
     /**
     * Return a glyph as an SVG path string.
-    * @param {number} glyphId 
+    * @param {number} glyphId ID of the requested glyph in t

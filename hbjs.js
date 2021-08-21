@@ -172,4 +172,4 @@ function hbjs(instance) {
     * @param {number} glyphId ID of the requested glyph in the font.
     **/
     function glyphToPath(glyphId) {
-      var svgLength = exports.hbjs_glyph_svg(ptr,
+      var svgLength = exports.hbjs_glyph_svg(ptr, glyphId, pathBuffer, pathBu

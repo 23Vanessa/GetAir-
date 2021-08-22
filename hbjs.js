@@ -173,4 +173,4 @@ function hbjs(instance) {
     **/
     function glyphToPath(glyphId) {
       var svgLength = exports.hbjs_glyph_svg(ptr, glyphId, pathBuffer, pathBufferSize);
-      return svgLength > 0 ? utf8Decoder.decode(heap
+      return svgLength > 0 ? utf8Decoder.decode(heapu8.subarray(pathBuffer, pathBuffe

@@ -175,3 +175,6 @@ function hbjs(instance) {
       var svgLength = exports.hbjs_glyph_svg(ptr, glyphId, pathBuffer, pathBufferSize);
       return svgLength > 0 ? utf8Decoder.decode(heapu8.subarray(pathBuffer, pathBuffer + svgLength)) : "";
     }
+
+    /**
+     * Return gl

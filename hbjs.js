@@ -177,4 +177,5 @@ function hbjs(instance) {
     }
 
     /**
-     * Return gl
+     * Return glyph name.
+     * @para

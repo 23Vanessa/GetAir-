@@ -178,4 +178,4 @@ function hbjs(instance) {
 
     /**
      * Return glyph name.
-     * @para
+     * @param {number} glyphId ID of the

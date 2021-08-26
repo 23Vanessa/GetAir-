@@ -181,4 +181,5 @@ function hbjs(instance) {
      * @param {number} glyphId ID of the requested glyph in the font.
      **/
     function glyphName(glyphId) {
-      ex
+      exports.hb_font_glyph_to_string(
+ 

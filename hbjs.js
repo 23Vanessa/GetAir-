@@ -180,4 +180,5 @@ function hbjs(instance) {
      * Return glyph name.
      * @param {number} glyphId ID of the requested glyph in the font.
      **/
-    function 
+    function glyphName(glyphId) {
+      ex

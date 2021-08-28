@@ -184,4 +184,5 @@ function hbjs(instance) {
       exports.hb_font_glyph_to_string(
         ptr,
         glyphId,
- 
+        nameBuffer,
+       

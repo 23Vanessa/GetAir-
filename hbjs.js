@@ -185,4 +185,6 @@ function hbjs(instance) {
         ptr,
         glyphId,
         nameBuffer,
-       
+        nameBufferSize
+      );
+      var ar

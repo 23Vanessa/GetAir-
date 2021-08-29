@@ -187,4 +187,4 @@ function hbjs(instance) {
         nameBuffer,
         nameBufferSize
       );
-      var array = heapu8.subarray(nameBuff
+      var array = heapu8.subarray(nameBuffer, nameBuffer + nameBuf

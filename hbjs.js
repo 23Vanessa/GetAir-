@@ -187,4 +187,5 @@ function hbjs(instance) {
         nameBuffer,
         nameBufferSize
       );
-      var array = heapu8.subarray(nameBuffer, nameBuffer + nameBuf
+      var array = heapu8.subarray(nameBuffer, nameBuffer + nameBufferSize);
+      return utf8Decoder.decode(arr

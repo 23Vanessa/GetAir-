@@ -193,4 +193,5 @@ function hbjs(instance) {
 
     return {
       ptr: ptr,
-      glyphName: g
+      glyphName: glyphName,
+      glyphToP

@@ -192,4 +192,5 @@ function hbjs(instance) {
     }
 
     return {
-      ptr: ptr
+      ptr: ptr,
+      glyphName: g

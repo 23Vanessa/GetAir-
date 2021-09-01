@@ -196,4 +196,4 @@ function hbjs(instance) {
       glyphName: glyphName,
       glyphToPath: glyphToPath,
       /**
-      
+      * Return a glyph as a JSON 

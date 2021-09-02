@@ -197,4 +197,4 @@ function hbjs(instance) {
       glyphToPath: glyphToPath,
       /**
       * Return a glyph as a JSON path string
-      * based on format described on https://svgwg.
+      * based on format described on https://svgwg.org/specs/paths/#Interf

@@ -198,4 +198,6 @@ function hbjs(instance) {
       /**
       * Return a glyph as a JSON path string
       * based on format described on https://svgwg.org/specs/paths/#InterfaceSVGPathSegment
-      * @param {number} glyphId ID of the requested glyph 
+      * @param {number} glyphId ID of the requested glyph in the font.
+      **/
+      glyp

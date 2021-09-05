@@ -201,4 +201,5 @@ function hbjs(instance) {
       * @param {number} glyphId ID of the requested glyph in the font.
       **/
       glyphToJson: function (glyphId) {
-  
+        var path = glyphToPath(glyphId);
+       

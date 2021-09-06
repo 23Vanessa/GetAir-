@@ -202,4 +202,4 @@ function hbjs(instance) {
       **/
       glyphToJson: function (glyphId) {
         var path = glyphToPath(glyphId);
-        return path.replace(/([MLQC
+        return path.replace(/([MLQCZ])/g, '|$1 ').split('|').fil

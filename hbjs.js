@@ -203,4 +203,5 @@ function hbjs(instance) {
       glyphToJson: function (glyphId) {
         var path = glyphToPath(glyphId);
         return path.replace(/([MLQCZ])/g, '|$1 ').split('|').filter(function (x) { return x.length; }).map(function (x) {
-          var row = x.split(/
+          var row = x.split(/[ ,]/g);
+          return { type: row

@@ -206,3 +206,6 @@ function hbjs(instance) {
           var row = x.split(/[ ,]/g);
           return { type: row[0], values: row.slice(1).filter(function (x) { return x.length; }).map(function (x) { return +x; }) };
         });
+      },
+      /**
+      * Set the 

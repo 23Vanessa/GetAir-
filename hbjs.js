@@ -208,4 +208,4 @@ function hbjs(instance) {
         });
       },
       /**
-      * Set the 
+      * Set the font's scale factor, affecting 

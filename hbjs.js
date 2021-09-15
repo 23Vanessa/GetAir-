@@ -210,4 +210,4 @@ function hbjs(instance) {
       /**
       * Set the font's scale factor, affecting the position values returned from
       * shaping.
-    
+      * @param {number} xScale Units 

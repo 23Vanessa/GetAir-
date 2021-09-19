@@ -214,4 +214,4 @@ function hbjs(instance) {
       * @param {number} yScale Units to scale in the Y dimension.
       **/
       setScale: function (xScale, yScale) {
-    
+        exports.hb_font_set_scal

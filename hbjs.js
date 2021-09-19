@@ -213,4 +213,5 @@ function hbjs(instance) {
       * @param {number} xScale Units to scale in the X dimension.
       * @param {number} yScale Units to scale in the Y dimension.
       **/
-      setScale:
+      setScale: function (xScale, yScale) {
+    

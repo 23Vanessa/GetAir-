@@ -217,4 +217,5 @@ function hbjs(instance) {
         exports.hb_font_set_scale(ptr, xScale, yScale);
       },
       /**
-       * Set the
+       * Set the font's variations.
+       *

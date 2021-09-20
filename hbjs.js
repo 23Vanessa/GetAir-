@@ -215,4 +215,6 @@ function hbjs(instance) {
       **/
       setScale: function (xScale, yScale) {
         exports.hb_font_set_scale(ptr, xScale, yScale);
-  
+      },
+      /**
+       * Set the

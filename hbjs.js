@@ -218,4 +218,4 @@ function hbjs(instance) {
       },
       /**
        * Set the font's variations.
-       *
+       * @param {object} variations Dictio

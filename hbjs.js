@@ -219,4 +219,5 @@ function hbjs(instance) {
       /**
        * Set the font's variations.
        * @param {object} variations Dictionary of variations to set
- 
+       **/
+      setVariations: f

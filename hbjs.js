@@ -221,4 +221,5 @@ function hbjs(instance) {
        * @param {object} variations Dictionary of variations to set
        **/
       setVariations: function (variations) {
-        var entries = Object.entries(v
+        var entries = Object.entries(variations);
+        var vars = exp

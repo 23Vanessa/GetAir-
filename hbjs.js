@@ -222,4 +222,5 @@ function hbjs(instance) {
        **/
       setVariations: function (variations) {
         var entries = Object.entries(variations);
-        var vars = exports.malloc(8 * entries.length
+        var vars = exports.malloc(8 * entries.length);
+        entries.forEach(function 

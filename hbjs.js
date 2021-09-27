@@ -224,4 +224,5 @@ function hbjs(instance) {
         var entries = Object.entries(variations);
         var vars = exports.malloc(8 * entries.length);
         entries.forEach(function (entry, i) {
-          heapu32[vars / 4 + i * 2 + 0] =
+          heapu32[vars / 4 + i * 2 + 0] = hb_tag(entry[0]);
+          heap

@@ -227,4 +227,4 @@ function hbjs(instance) {
           heapu32[vars / 4 + i * 2 + 0] = hb_tag(entry[0]);
           heapf32[vars / 4 + i * 2 + 1] = entry[1];
         });
-        exports.hb_font_set_variations(ptr, 
+        exports.hb_font_set_variations(ptr, vars, entries.length);

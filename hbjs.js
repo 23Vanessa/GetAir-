@@ -229,3 +229,5 @@ function hbjs(instance) {
         });
         exports.hb_font_set_variations(ptr, vars, entries.length);
         exports.free(vars);
+      },
+      /**

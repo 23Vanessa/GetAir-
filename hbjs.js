@@ -228,3 +228,4 @@ function hbjs(instance) {
           heapf32[vars / 4 + i * 2 + 1] = entry[1];
         });
         exports.hb_font_set_variations(ptr, vars, entries.length);
+        exports.free(vars);

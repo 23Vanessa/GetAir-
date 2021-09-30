@@ -231,3 +231,5 @@ function hbjs(instance) {
         exports.free(vars);
       },
       /**
+      * Free the object.
+     

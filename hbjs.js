@@ -233,4 +233,4 @@ function hbjs(instance) {
       /**
       * Free the object.
       */
-      destroy: function (
+      destroy: function () { exports.hb_font_destroy(ptr

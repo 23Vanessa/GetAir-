@@ -233,4 +233,8 @@ function hbjs(instance) {
       /**
       * Free the object.
       */
-      destroy: function () { exports.hb_font_destroy(ptr
+      destroy: function () { exports.hb_font_destroy(ptr); }
+    };
+  }
+
+  var utf8Encoder 

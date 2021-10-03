@@ -237,4 +237,5 @@ function hbjs(instance) {
     };
   }
 
-  var utf8Encoder 
+  var utf8Encoder = new TextEncoder("utf8");
+  function c

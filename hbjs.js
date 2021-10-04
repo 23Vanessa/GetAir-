@@ -239,4 +239,4 @@ function hbjs(instance) {
 
   var utf8Encoder = new TextEncoder("utf8");
   function createCString(text) {
-    va
+    var bytes = utf8Encoder.e

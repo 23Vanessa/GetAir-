@@ -242,3 +242,5 @@ function hbjs(instance) {
     var bytes = utf8Encoder.encode(text);
     var ptr = exports.malloc(bytes.byteLength);
     heapu8.set(bytes, ptr);
+    return {
+      ptr: ptr,

@@ -244,4 +244,5 @@ function hbjs(instance) {
     heapu8.set(bytes, ptr);
     return {
       ptr: ptr,
-      length: bytes.by
+      length: bytes.byteLength,
+      free: function () { 

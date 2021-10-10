@@ -249,4 +249,5 @@ function hbjs(instance) {
     };
   }
 
-  function createJsString(t
+  function createJsString(text) {
+    const ptr = exports.malloc

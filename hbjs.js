@@ -245,4 +245,6 @@ function hbjs(instance) {
     return {
       ptr: ptr,
       length: bytes.byteLength,
-      free: function () { 
+      free: function () { exports.free(ptr); }
+    };
+  }

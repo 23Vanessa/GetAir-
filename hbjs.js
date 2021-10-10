@@ -248,3 +248,5 @@ function hbjs(instance) {
       free: function () { exports.free(ptr); }
     };
   }
+
+  function createJsString(t

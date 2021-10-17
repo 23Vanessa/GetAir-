@@ -252,4 +252,5 @@ function hbjs(instance) {
   function createJsString(text) {
     const ptr = exports.malloc(text.length * 2);
     const words = new Uint16Array(exports.memory.buffer, ptr, text.length);
-    for (let i = 0; i < words.length; ++i) words[i] = text
+    for (let i = 0; i < words.length; ++i) words[i] = text.charCodeAt(i);
+    return {

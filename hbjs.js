@@ -251,4 +251,5 @@ function hbjs(instance) {
 
   function createJsString(text) {
     const ptr = exports.malloc(text.length * 2);
-    const words = new Uint16Array(exports.memory
+    const words = new Uint16Array(exports.memory.buffer, ptr, text.length);
+ 

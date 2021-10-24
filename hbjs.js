@@ -254,3 +254,5 @@ function hbjs(instance) {
     const words = new Uint16Array(exports.memory.buffer, ptr, text.length);
     for (let i = 0; i < words.length; ++i) words[i] = text.charCodeAt(i);
     return {
+      ptr: ptr,
+      le

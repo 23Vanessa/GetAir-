@@ -255,4 +255,5 @@ function hbjs(instance) {
     for (let i = 0; i < words.length; ++i) words[i] = text.charCodeAt(i);
     return {
       ptr: ptr,
-      le
+      length: words.length,
+      free: functi

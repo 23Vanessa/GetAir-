@@ -256,4 +256,5 @@ function hbjs(instance) {
     return {
       ptr: ptr,
       length: words.length,
-      free: functi
+      free: function () { exports.free(ptr); }
+   

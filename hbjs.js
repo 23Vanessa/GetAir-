@@ -257,4 +257,8 @@ function hbjs(instance) {
       ptr: ptr,
       length: words.length,
       free: function () { exports.free(ptr); }
-   
+    };
+  }
+
+  /**
+  * Create an obje

@@ -261,4 +261,4 @@ function hbjs(instance) {
   }
 
   /**
-  * Create an obje
+  * Create an object representing a Harf

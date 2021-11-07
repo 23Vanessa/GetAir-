@@ -265,4 +265,6 @@ function hbjs(instance) {
   **/
   function createBuffer() {
     var ptr = exports.hb_buffer_create();
-    ret
+    return {
+      ptr: ptr,
+     

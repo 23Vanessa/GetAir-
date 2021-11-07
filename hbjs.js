@@ -264,4 +264,5 @@ function hbjs(instance) {
   * Create an object representing a Harfbuzz buffer.
   **/
   function createBuffer() {
-    var ptr = exports.h
+    var ptr = exports.hb_buffer_create();
+    ret

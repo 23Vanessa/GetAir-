@@ -261,4 +261,6 @@ function hbjs(instance) {
   }
 
   /**
-  * Create an object representing a Harf
+  * Create an object representing a Harfbuzz buffer.
+  **/
+  function createB

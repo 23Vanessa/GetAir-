@@ -267,4 +267,5 @@ function hbjs(instance) {
     var ptr = exports.hb_buffer_create();
     return {
       ptr: ptr,
-     
+      /**
+      * Add text to the buffer.

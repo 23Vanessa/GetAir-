@@ -271,4 +271,5 @@ function hbjs(instance) {
       * Add text to the buffer.
       * @param {string} text Text to be added to the buffer.
       **/
-      addTe
+      addText: function (text) {
+        co

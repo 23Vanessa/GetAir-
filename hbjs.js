@@ -269,4 +269,6 @@ function hbjs(instance) {
       ptr: ptr,
       /**
       * Add text to the buffer.
-      * @param {string} text Text to be added to the buf
+      * @param {string} text Text to be added to the buffer.
+      **/
+      addTe

@@ -272,4 +272,4 @@ function hbjs(instance) {
       * @param {string} text Text to be added to the buffer.
       **/
       addText: function (text) {
-        co
+        const str = createJsString(text);

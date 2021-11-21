@@ -273,3 +273,4 @@ function hbjs(instance) {
       **/
       addText: function (text) {
         const str = createJsString(text);
+        exports.hb_buffer_add_

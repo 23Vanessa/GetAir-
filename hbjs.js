@@ -278,4 +278,5 @@ function hbjs(instance) {
       },
       /**
       * Set buffer script, language and direction.
-  
+      *
+      * This needs to b

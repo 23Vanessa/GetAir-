@@ -275,3 +275,6 @@ function hbjs(instance) {
         const str = createJsString(text);
         exports.hb_buffer_add_utf16(ptr, str.ptr, str.length, 0, str.length);
         str.free();
+      },
+      /**
+      * Set buffe

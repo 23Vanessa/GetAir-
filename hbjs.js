@@ -277,4 +277,5 @@ function hbjs(instance) {
         str.free();
       },
       /**
-      * Set buffe
+      * Set buffer script, language and direction.
+  

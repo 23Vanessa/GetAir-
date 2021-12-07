@@ -281,4 +281,5 @@ function hbjs(instance) {
       *
       * This needs to be done before shaping.
       **/
-      guessSegmentProperties: fu
+      guessSegmentProperties: function () {
+        ret

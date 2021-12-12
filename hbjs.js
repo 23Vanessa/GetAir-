@@ -282,4 +282,6 @@ function hbjs(instance) {
       * This needs to be done before shaping.
       **/
       guessSegmentProperties: function () {
-        return exports.hb_buffer_guess_se
+        return exports.hb_buffer_guess_segment_properties(ptr);
+      },
+    

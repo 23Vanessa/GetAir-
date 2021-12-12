@@ -285,4 +285,5 @@ function hbjs(instance) {
         return exports.hb_buffer_guess_segment_properties(ptr);
       },
       /**
-      * Set buffer direction expl
+      * Set buffer direction explicitly.
+      * @param 

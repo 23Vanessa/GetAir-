@@ -286,4 +286,5 @@ function hbjs(instance) {
       },
       /**
       * Set buffer direction explicitly.
-      * @param {string} direction: One of "lt
+      * @param {string} direction: One of "ltr", "rtl", "ttb" or "btt"
+    

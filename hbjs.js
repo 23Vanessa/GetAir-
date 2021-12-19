@@ -292,4 +292,6 @@ function hbjs(instance) {
         exports.hb_buffer_set_direction(ptr, {
           ltr: 4,
           rtl: 5,
-          ttb: 
+          ttb: 6,
+          btt: 7
+     

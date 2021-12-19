@@ -289,4 +289,6 @@ function hbjs(instance) {
       * @param {string} direction: One of "ltr", "rtl", "ttb" or "btt"
       */
       setDirection: function (dir) {
-        exports.hb_buffer_set_direct
+        exports.hb_buffer_set_direction(ptr, {
+          ltr: 4,
+   

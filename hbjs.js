@@ -294,4 +294,6 @@ function hbjs(instance) {
           rtl: 5,
           ttb: 6,
           btt: 7
-     
+        }[dir] || 0);
+      },
+      /*

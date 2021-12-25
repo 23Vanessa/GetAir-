@@ -296,4 +296,5 @@ function hbjs(instance) {
           btt: 7
         }[dir] || 0);
       },
-      /*
+      /**
+      * Set buffer flags 

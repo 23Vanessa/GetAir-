@@ -298,4 +298,4 @@ function hbjs(instance) {
       },
       /**
       * Set buffer flags explicitly.
-      * @param {string[]} flags: A list of str
+      * @param {string[]} flags: A list of strings which may be eithe

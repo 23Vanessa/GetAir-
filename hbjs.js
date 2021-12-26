@@ -297,4 +297,5 @@ function hbjs(instance) {
         }[dir] || 0);
       },
       /**
-      * Set buffer flags 
+      * Set buffer flags explicitly.
+      * @param {strin

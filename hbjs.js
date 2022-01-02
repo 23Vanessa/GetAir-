@@ -302,4 +302,5 @@ function hbjs(instance) {
       * "BOT"
       * "EOT"
       * "PRESERVE_DEFAULT_IGNORABLES"
-      * "REMOVE_DEFAULT_IG
+      * "REMOVE_DEFAULT_IGNORABLES"
+      * "DO_NOT_INSERT_DOTT

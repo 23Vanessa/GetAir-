@@ -301,4 +301,5 @@ function hbjs(instance) {
       * @param {string[]} flags: A list of strings which may be either:
       * "BOT"
       * "EOT"
-      * "PRESERVE_DEFAULT_IG
+      * "PRESERVE_DEFAULT_IGNORABLES"
+      * "REMOVE_DEFAULT_IG

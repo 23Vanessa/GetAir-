@@ -303,4 +303,6 @@ function hbjs(instance) {
       * "EOT"
       * "PRESERVE_DEFAULT_IGNORABLES"
       * "REMOVE_DEFAULT_IGNORABLES"
-      * "DO_NOT_INSERT_DOTT
+      * "DO_NOT_INSERT_DOTTED_CIRCLE"
+      */
+      setFlags

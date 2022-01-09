@@ -305,4 +305,5 @@ function hbjs(instance) {
       * "REMOVE_DEFAULT_IGNORABLES"
       * "DO_NOT_INSERT_DOTTED_CIRCLE"
       */
-      setFlags
+      setFlags: function (flags) {
+        var flagV

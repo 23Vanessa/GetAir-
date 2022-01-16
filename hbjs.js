@@ -306,4 +306,5 @@ function hbjs(instance) {
       * "DO_NOT_INSERT_DOTTED_CIRCLE"
       */
       setFlags: function (flags) {
-        var flagV
+        var flagValue = 0
+        flags.forEach(fu

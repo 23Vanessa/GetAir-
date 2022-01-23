@@ -308,4 +308,4 @@ function hbjs(instance) {
       setFlags: function (flags) {
         var flagValue = 0
         flags.forEach(function (s) {
-          flag
+          flagValue |= _buffer_flag(s);

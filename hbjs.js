@@ -309,3 +309,6 @@ function hbjs(instance) {
         var flagValue = 0
         flags.forEach(function (s) {
           flagValue |= _buffer_flag(s);
+        })
+
+        exports.

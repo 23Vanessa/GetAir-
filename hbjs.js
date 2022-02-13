@@ -311,4 +311,4 @@ function hbjs(instance) {
           flagValue |= _buffer_flag(s);
         })
 
-        exports.
+        exports.hb_buffer_set_flags(pt

@@ -314,4 +314,5 @@ function hbjs(instance) {
         exports.hb_buffer_set_flags(ptr,flagValue);
       },
       /**
-      *
+      * Set buffer language explicitly.
+      

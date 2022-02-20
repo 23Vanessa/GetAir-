@@ -315,4 +315,6 @@ function hbjs(instance) {
       },
       /**
       * Set buffer language explicitly.
-      * @param {string} language: T
+      * @param {string} language: The buffer language
+      */
+  

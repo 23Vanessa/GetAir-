@@ -318,4 +318,5 @@ function hbjs(instance) {
       * @param {string} language: The buffer language
       */
       setLanguage: function (language) {
-        var str = create
+        var str = createCString(language);
+        exports.h

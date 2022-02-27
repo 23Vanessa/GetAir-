@@ -317,4 +317,5 @@ function hbjs(instance) {
       * Set buffer language explicitly.
       * @param {string} language: The buffer language
       */
-      setLanguage: function (langu
+      setLanguage: function (language) {
+        var str = create

@@ -319,4 +319,4 @@ function hbjs(instance) {
       */
       setLanguage: function (language) {
         var str = createCString(language);
-        exports.h
+        exports.hb_buffer_set_language(ptr,

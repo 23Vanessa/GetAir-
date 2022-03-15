@@ -322,4 +322,5 @@ function hbjs(instance) {
         exports.hb_buffer_set_language(ptr, exports.hb_language_from_string(str.ptr,-1));
         str.free();
       },
-   
+      /**
+      * Set buffer script e

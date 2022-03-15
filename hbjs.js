@@ -323,4 +323,5 @@ function hbjs(instance) {
         str.free();
       },
       /**
-      * Set buffer script e
+      * Set buffer script explicitly.
+      * @par

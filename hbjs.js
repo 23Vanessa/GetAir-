@@ -324,4 +324,4 @@ function hbjs(instance) {
       },
       /**
       * Set buffer script explicitly.
-      * @par
+      * @param {string} script: The buffer 

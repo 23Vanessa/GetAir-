@@ -326,4 +326,5 @@ function hbjs(instance) {
       * Set buffer script explicitly.
       * @param {string} script: The buffer script
       */
-      setScript: funct
+      setScript: function (script) {
+        var s

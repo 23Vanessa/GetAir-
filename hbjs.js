@@ -328,4 +328,5 @@ function hbjs(instance) {
       */
       setScript: function (script) {
         var str = createCString(script);
-        exports.hb_buffer_set_script(ptr, exports.hb_script_from_strin
+        exports.hb_buffer_set_script(ptr, exports.hb_script_from_string(str.ptr,-1));
+        str.free()

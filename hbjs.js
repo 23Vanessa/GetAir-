@@ -327,4 +327,5 @@ function hbjs(instance) {
       * @param {string} script: The buffer script
       */
       setScript: function (script) {
-        var s
+        var str = createCString(script);
+ 

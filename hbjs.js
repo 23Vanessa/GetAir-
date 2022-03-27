@@ -335,4 +335,4 @@ function hbjs(instance) {
       /**
       * Set the Harfbuzz clustering level.
       *
-   
+      * Affects the cluster values re

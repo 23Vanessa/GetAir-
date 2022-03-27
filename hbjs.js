@@ -333,4 +333,4 @@ function hbjs(instance) {
       },
 
       /**
- 
+      * Set the Harfbuzz cluster

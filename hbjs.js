@@ -336,4 +336,4 @@ function hbjs(instance) {
       * Set the Harfbuzz clustering level.
       *
       * Affects the cluster values returned from shaping.
-      * @param {number} level: Cluste
+      * @param {number} level: Clustering level. See the Harfbuz

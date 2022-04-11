@@ -340,4 +340,4 @@ function hbjs(instance) {
       * on Clusters.
       **/
       setClusterLevel: function (level) {
-        e
+        exports.hb_buffer_set_cluster_level

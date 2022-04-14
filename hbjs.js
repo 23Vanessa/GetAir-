@@ -343,4 +343,6 @@ function hbjs(instance) {
         exports.hb_buffer_set_cluster_level(ptr, level)
       },
       /**
-      * Return the buff
+      * Return the buffer contents as a JSON object.
+      *
+  

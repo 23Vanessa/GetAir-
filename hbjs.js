@@ -345,4 +345,4 @@ function hbjs(instance) {
       /**
       * Return the buffer contents as a JSON object.
       *
-  
+      * After shaping, this

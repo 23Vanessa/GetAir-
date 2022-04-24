@@ -346,4 +346,5 @@ function hbjs(instance) {
       * Return the buffer contents as a JSON object.
       *
       * After shaping, this function will return an array of glyph information
-      * objects. Each object will have t
+      * objects. Each object will have the following attributes:
+      *

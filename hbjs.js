@@ -348,3 +348,5 @@ function hbjs(instance) {
       * After shaping, this function will return an array of glyph information
       * objects. Each object will have the following attributes:
       *
+      *   - g: The glyph ID
+      *

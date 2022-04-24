@@ -350,4 +350,4 @@ function hbjs(instance) {
       *
       *   - g: The glyph ID
       *   - cl: The cluster ID
-      *
+      *   - ax: Advance width (w

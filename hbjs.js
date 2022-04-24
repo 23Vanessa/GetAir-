@@ -349,4 +349,5 @@ function hbjs(instance) {
       * objects. Each object will have the following attributes:
       *
       *   - g: The glyph ID
+      *   - cl: The cluster ID
       *

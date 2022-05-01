@@ -352,4 +352,4 @@ function hbjs(instance) {
       *   - cl: The cluster ID
       *   - ax: Advance width (width to advance after this glyph is painted)
       *   - ay: Advance height (height to advance after this glyph is painted)
-      *   - dx: X displacement
+      *   - dx: X displacement (adjustment in X dimension w

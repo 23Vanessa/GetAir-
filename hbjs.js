@@ -353,4 +353,4 @@ function hbjs(instance) {
       *   - ax: Advance width (width to advance after this glyph is painted)
       *   - ay: Advance height (height to advance after this glyph is painted)
       *   - dx: X displacement (adjustment in X dimension when painting this glyph)
-   
+      *   - dy: Y displacement (

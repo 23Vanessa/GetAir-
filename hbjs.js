@@ -354,4 +354,5 @@ function hbjs(instance) {
       *   - ay: Advance height (height to advance after this glyph is painted)
       *   - dx: X displacement (adjustment in X dimension when painting this glyph)
       *   - dy: Y displacement (adjustment in Y dimension when painting this glyph)
-      *   - flags: Glyph flags like `HB_GLYPH_FLAG_U
+      *   - flags: Glyph flags like `HB_GLYPH_FLAG_UNSAFE_TO_BREAK` (0x1)
+      

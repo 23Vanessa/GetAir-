@@ -355,4 +355,6 @@ function hbjs(instance) {
       *   - dx: X displacement (adjustment in X dimension when painting this glyph)
       *   - dy: Y displacement (adjustment in Y dimension when painting this glyph)
       *   - flags: Glyph flags like `HB_GLYPH_FLAG_UNSAFE_TO_BREAK` (0x1)
-      
+      **/
+      json: function () {
+  

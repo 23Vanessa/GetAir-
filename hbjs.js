@@ -357,4 +357,4 @@ function hbjs(instance) {
       *   - flags: Glyph flags like `HB_GLYPH_FLAG_UNSAFE_TO_BREAK` (0x1)
       **/
       json: function () {
-        var length = export
+        var length = exports.hb_buffer_get_length(ptr);

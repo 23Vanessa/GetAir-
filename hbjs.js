@@ -358,3 +358,5 @@ function hbjs(instance) {
       **/
       json: function () {
         var length = exports.hb_buffer_get_length(ptr);
+        var result = [];
+        var i

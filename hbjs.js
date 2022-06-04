@@ -359,4 +359,5 @@ function hbjs(instance) {
       json: function () {
         var length = exports.hb_buffer_get_length(ptr);
         var result = [];
-        var infosPtr = exports.hb_buffer
+        var infosPtr = exports.hb_buffer_get_glyph_infos(ptr, 0);
+      

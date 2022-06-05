@@ -360,4 +360,5 @@ function hbjs(instance) {
         var length = exports.hb_buffer_get_length(ptr);
         var result = [];
         var infosPtr = exports.hb_buffer_get_glyph_infos(ptr, 0);
-        var infosPtr32 = infosPtr / 
+        var infosPtr32 = infosPtr / 4;
+        var positionsPtr32

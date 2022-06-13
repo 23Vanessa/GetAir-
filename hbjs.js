@@ -362,4 +362,4 @@ function hbjs(instance) {
         var infosPtr = exports.hb_buffer_get_glyph_infos(ptr, 0);
         var infosPtr32 = infosPtr / 4;
         var positionsPtr32 = exports.hb_buffer_get_glyph_positions(ptr, 0) / 4;
-        var infos = heapu32.suba
+        var infos = heapu32.subarray(infosPtr32, infosPtr32 

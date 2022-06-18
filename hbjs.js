@@ -365,3 +365,5 @@ function hbjs(instance) {
         var infos = heapu32.subarray(infosPtr32, infosPtr32 + 5 * length);
         var positions = heapi32.subarray(positionsPtr32, positionsPtr32 + 5 * length);
         for (var i = 0; i < length; ++i) {
+          result.push({
+         

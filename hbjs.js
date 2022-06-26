@@ -367,4 +367,5 @@ function hbjs(instance) {
         for (var i = 0; i < length; ++i) {
           result.push({
             g: infos[i * 5 + 0],
-            cl: infos[i * 
+            cl: infos[i * 5 + 2],
+            ax: positions[i 

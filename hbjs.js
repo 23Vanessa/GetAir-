@@ -368,4 +368,5 @@ function hbjs(instance) {
           result.push({
             g: infos[i * 5 + 0],
             cl: infos[i * 5 + 2],
-            ax: positions[i 
+            ax: positions[i * 5 + 0],
+            ay:

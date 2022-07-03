@@ -369,4 +369,5 @@ function hbjs(instance) {
             g: infos[i * 5 + 0],
             cl: infos[i * 5 + 2],
             ax: positions[i * 5 + 0],
-            ay:
+            ay: positions[i * 5 + 1],
+      

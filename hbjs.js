@@ -372,4 +372,4 @@ function hbjs(instance) {
             ay: positions[i * 5 + 1],
             dx: positions[i * 5 + 2],
             dy: positions[i * 5 + 3],
-    
+            flags: exports.hb_glyph_

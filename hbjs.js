@@ -375,4 +375,6 @@ function hbjs(instance) {
             flags: exports.hb_glyph_info_get_glyph_flags(infosPtr + i * 20)
           });
         }
-   
+        return result;
+      },
+ 

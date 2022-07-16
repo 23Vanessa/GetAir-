@@ -377,4 +377,6 @@ function hbjs(instance) {
         }
         return result;
       },
+      /**
+      * Free the object.
  

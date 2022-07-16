@@ -380,4 +380,9 @@ function hbjs(instance) {
       /**
       * Free the object.
       */
-      destroy: function () { exports.hb_buffer_destroy(ptr)
+      destroy: function () { exports.hb_buffer_destroy(ptr); }
+    };
+  }
+
+  /**
+  *

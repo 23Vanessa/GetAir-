@@ -385,4 +385,6 @@ function hbjs(instance) {
   }
 
   /**
-  * Shape a buffer with a given fo
+  * Shape a buffer with a given font.
+  *
+  * This returns nothing, but m

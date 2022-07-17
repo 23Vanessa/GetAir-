@@ -387,4 +387,6 @@ function hbjs(instance) {
   /**
   * Shape a buffer with a given font.
   *
-  * This returns nothing, but m
+  * This returns nothing, but modifies the buffer.
+  *
+  * @param {

@@ -390,4 +390,5 @@ function hbjs(instance) {
   * This returns nothing, but modifies the buffer.
   *
   * @param {object} font: A font returned from `createFont`
-  * @param {object} buffer: A buffer returned from `
+  * @param {object} buffer: A buffer returned from `createBuffer` and suitably
+  *   

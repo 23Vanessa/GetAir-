@@ -394,4 +394,4 @@ function hbjs(instance) {
   *   prepared.
   * @param {object} features: (Currently unused).
   */
-  function shape(
+  function shape(font, buffer, featur

@@ -395,4 +395,7 @@ function hbjs(instance) {
   * @param {object} features: (Currently unused).
   */
   function shape(font, buffer, features) {
-    exports.hb_shape(font.ptr, buff
+    exports.hb_shape(font.ptr, buffer.ptr, 0, 0);
+  }
+
+  /**

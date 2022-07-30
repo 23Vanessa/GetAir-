@@ -399,3 +399,4 @@ function hbjs(instance) {
   }
 
   /**
+  * Shape a buffer with a given font, 

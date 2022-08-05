@@ -401,4 +401,4 @@ function hbjs(instance) {
   /**
   * Shape a buffer with a given font, returning a JSON trace of the shaping process.
   *
-  * This 
+  * This function supports "partial shapi

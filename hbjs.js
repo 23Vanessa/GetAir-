@@ -399,4 +399,6 @@ function hbjs(instance) {
   }
 
   /**
-  * Shape a buffer with a given font, returning a JSON trace of t
+  * Shape a buffer with a given font, returning a JSON trace of the shaping process.
+  *
+  * This 

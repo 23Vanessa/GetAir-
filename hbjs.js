@@ -402,4 +402,4 @@ function hbjs(instance) {
   * Shape a buffer with a given font, returning a JSON trace of the shaping process.
   *
   * This function supports "partial shaping", where the shaping process is
-  * terminat
+  * terminated after a given lookup ID 

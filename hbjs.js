@@ -403,4 +403,4 @@ function hbjs(instance) {
   *
   * This function supports "partial shaping", where the shaping process is
   * terminated after a given lookup ID is reached. If the user requests the function
-  * to terminate shaping 
+  * to terminate shaping after an ID in the GSUB pha

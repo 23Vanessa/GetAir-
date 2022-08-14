@@ -405,3 +405,5 @@ function hbjs(instance) {
   * terminated after a given lookup ID is reached. If the user requests the function
   * to terminate shaping after an ID in the GSUB phase, GPOS table lookups will be
   * processed as normal.
+  *
+  * @param {object} font:

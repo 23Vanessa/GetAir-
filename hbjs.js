@@ -406,4 +406,5 @@ function hbjs(instance) {
   * to terminate shaping after an ID in the GSUB phase, GPOS table lookups will be
   * processed as normal.
   *
-  * @param {object} font:
+  * @param {object} font: A font returned from `createFont`
+  * 

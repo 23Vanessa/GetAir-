@@ -407,4 +407,5 @@ function hbjs(instance) {
   * processed as normal.
   *
   * @param {object} font: A font returned from `createFont`
-  * @param {object} buffer: A buffer returned from `createBuffer
+  * @param {object} buffer: A buffer returned from `createBuffer` and suitably
+  *   prep

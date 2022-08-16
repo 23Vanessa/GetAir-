@@ -408,4 +408,5 @@ function hbjs(instance) {
   *
   * @param {object} font: A font returned from `createFont`
   * @param {object} buffer: A buffer returned from `createBuffer` and suitably
-  *   prep
+  *   prepared.
+  * @param {object} features:

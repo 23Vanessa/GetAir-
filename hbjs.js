@@ -410,4 +410,4 @@ function hbjs(instance) {
   * @param {object} buffer: A buffer returned from `createBuffer` and suitably
   *   prepared.
   * @param {object} features: A dictionary of OpenType features to apply.
-  * @param {number} st
+  * @param {number} stop_at: A lookup ID at

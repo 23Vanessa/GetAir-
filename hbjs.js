@@ -411,3 +411,4 @@ function hbjs(instance) {
   *   prepared.
   * @param {object} features: A dictionary of OpenType features to apply.
   * @param {number} stop_at: A lookup ID at which to terminate shaping.
+  * @param {number} stop_phase: Eit

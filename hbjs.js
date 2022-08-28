@@ -413,4 +413,7 @@ function hbjs(instance) {
   * @param {number} stop_at: A lookup ID at which to terminate shaping.
   * @param {number} stop_phase: Either 0 (don't terminate shaping), 1 (`stop_at`
       refers to a lookup ID in the GSUB table), 2 (`stop_at` refers to a lookup
-      ID in the 
+      ID in the GPOS table).
+  */
+
+  function s

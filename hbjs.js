@@ -416,4 +416,4 @@ function hbjs(instance) {
       ID in the GPOS table).
   */
 
-  function s
+  function shapeWithTrace(font, buffer, fe

@@ -417,4 +417,4 @@ function hbjs(instance) {
   */
 
   function shapeWithTrace(font, buffer, features, stop_at, stop_phase) {
- 
+    var bufLen = 1024 * 1024;

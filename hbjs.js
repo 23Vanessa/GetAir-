@@ -420,4 +420,4 @@ function hbjs(instance) {
     var bufLen = 1024 * 1024;
     var traceBuffer = exports.malloc(bufLen);
     var featurestr = createCString(features);
-    var traceLen = exports.
+    var traceLen = exports.hbjs_shape_with_trace(fon

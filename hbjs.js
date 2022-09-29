@@ -422,4 +422,5 @@ function hbjs(instance) {
     var featurestr = createCString(features);
     var traceLen = exports.hbjs_shape_with_trace(font.ptr, buffer.ptr, featurestr.ptr, stop_at, stop_phase, traceBuffer, bufLen);
     featurestr.free();
-    var trace = utf8Decoder.decode(heapu8.subarray(traceBuffer, traceBuffer + 
+    var trace = utf8Decoder.decode(heapu8.subarray(traceBuffer, traceBuffer + traceLen - 1));
+    export

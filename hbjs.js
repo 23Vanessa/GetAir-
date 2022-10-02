@@ -427,3 +427,5 @@ function hbjs(instance) {
     return JSON.parse(trace);
   }
 
+  return {
+    createBlob: c

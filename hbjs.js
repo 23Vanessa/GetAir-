@@ -424,4 +424,6 @@ function hbjs(instance) {
     featurestr.free();
     var trace = utf8Decoder.decode(heapu8.subarray(traceBuffer, traceBuffer + traceLen - 1));
     exports.free(traceBuffer);
-    retu
+    return JSON.parse(trace);
+  }
+

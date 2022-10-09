@@ -428,4 +428,5 @@ function hbjs(instance) {
   }
 
   return {
-    createBlob: c
+    createBlob: createBlob,
+    createFace: createFace,

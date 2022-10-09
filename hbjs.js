@@ -432,4 +432,5 @@ function hbjs(instance) {
     createFace: createFace,
     createFont: createFont,
     createBuffer: createBuffer,
-    
+    shape: shape,
+    shapeWi

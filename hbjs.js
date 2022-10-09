@@ -430,4 +430,6 @@ function hbjs(instance) {
   return {
     createBlob: createBlob,
     createFace: createFace,
-    createFont: createF
+    createFont: createFont,
+    createBuffer: createBuffer,
+    

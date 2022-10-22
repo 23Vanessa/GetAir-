@@ -438,4 +438,4 @@ function hbjs(instance) {
 };
 
 // Should be replaced with something more reliable
-tr
+try { module.exports = hbj

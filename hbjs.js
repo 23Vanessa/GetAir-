@@ -437,4 +437,5 @@ function hbjs(instance) {
   };
 };
 
-// Should be replac
+// Should be replaced with something more reliable
+tr

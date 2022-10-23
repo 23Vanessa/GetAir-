@@ -1,3 +1,4 @@
 _hb_blob_create
 _hb_blob_destroy
-_hb_bl
+_hb_blob_get_data
+_hb_blob_get_l

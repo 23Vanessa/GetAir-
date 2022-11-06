@@ -4,4 +4,6 @@ _hb_blob_get_data
 _hb_blob_get_length
 _hb_buffer_add_utf16
 _hb_buffer_add_utf8
-_hb_buffer_cr
+_hb_buffer_create
+_hb_buffer_destroy
+_h

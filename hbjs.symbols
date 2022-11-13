@@ -10,4 +10,5 @@ _hb_buffer_get_glyph_infos
 _hb_buffer_get_glyph_positions
 _hb_buffer_get_length
 _hb_buffer_guess_segment_properties
-_hb_buffer_
+_hb_buffer_set_cluster_level
+_hb_buffer_se

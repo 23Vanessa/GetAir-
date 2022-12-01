@@ -24,4 +24,5 @@ _hb_font_create
 _hb_font_destroy
 _hb_font_glyph_to_string
 _hb_font_set_scale
-_
+_hb_font_set_variations
+_h

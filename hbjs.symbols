@@ -25,4 +25,4 @@ _hb_font_destroy
 _hb_font_glyph_to_string
 _hb_font_set_scale
 _hb_font_set_variations
-_h
+_hb_glyph_info_get_glyph_fla

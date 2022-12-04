@@ -30,4 +30,5 @@ _hb_language_from_string
 _hb_ot_var_get_axis_infos
 _hb_script_from_string
 _hb_set_create
-_h
+_hb_set_destroy
+_hb_set_get_popu

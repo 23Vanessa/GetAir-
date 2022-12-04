@@ -28,4 +28,6 @@ _hb_font_set_variations
 _hb_glyph_info_get_glyph_flags
 _hb_language_from_string
 _hb_ot_var_get_axis_infos
-_hb_script
+_hb_script_from_string
+_hb_set_create
+_h

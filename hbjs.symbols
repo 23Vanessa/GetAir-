@@ -31,4 +31,6 @@ _hb_ot_var_get_axis_infos
 _hb_script_from_string
 _hb_set_create
 _hb_set_destroy
-_hb_set_get_popu
+_hb_set_get_population
+_hb_set_next_many
+_hb_sh

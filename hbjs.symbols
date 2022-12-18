@@ -38,4 +38,4 @@ _hbjs_glyph_svg
 _hbjs_shape_with_trace
 _malloc
 _free
-_fr
+_free_ptr

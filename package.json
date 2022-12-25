@@ -4,4 +4,4 @@
   "description": "Minimal version of HarfBuzz for JavaScript use",
   "main": "index.js",
   "scripts": {
-    "te
+    "test": "node examples/hbjs.examp

@@ -7,3 +7,6 @@
     "test": "node examples/hbjs.example.node.js"
   },
   "keywords": [
+    "harfbuzz",
+    "opentype",
+    

@@ -22,4 +22,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/harfbuzz/harfbuzzjs.g
+    "url": "git+https://github.com/harfbuzz/harfbuzzjs.git"
+  },
+  "author": 

@@ -21,4 +21,5 @@
     "emoji"
   ],
   "repository": {
-    "type"
+    "type": "git",
+    "url": "git+https://git

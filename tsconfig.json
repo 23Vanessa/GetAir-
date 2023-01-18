@@ -1,2 +1,4 @@
 {
-  "compileOnSav
+  "compileOnSave": true,
+  "compilerOptions": {
+    "m

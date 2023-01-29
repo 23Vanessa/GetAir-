@@ -1,4 +1,6 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "m
+    "module": "es6",
+    "target": "es6",
+  

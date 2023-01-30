@@ -6,4 +6,5 @@
     "sourceMap": true,
     "alwaysStrict": true,
     "noImplicitThis": true,
-   
+    "noImplicitAny": true,
+    "noImpl

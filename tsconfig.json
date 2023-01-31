@@ -8,4 +8,5 @@
     "noImplicitThis": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
-    "strictNull
+    "strictNullChecks": true,
+    "skipLibCheck": 

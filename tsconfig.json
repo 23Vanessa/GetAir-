@@ -7,4 +7,5 @@
     "alwaysStrict": true,
     "noImplicitThis": true,
     "noImplicitAny": true,
-    "noImpl
+    "noImplicitReturns": true,
+    "strictNull

@@ -9,4 +9,5 @@
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "strictNullChecks": true,
-    "skipLibCheck": 
+    "skipLibCheck": true,
+    "strictPrope

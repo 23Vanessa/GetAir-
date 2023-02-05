@@ -10,4 +10,4 @@
     "noImplicitReturns": true,
     "strictNullChecks": true,
     "skipLibCheck": true,
-    "strictPrope
+    "strictPropertyInitialization": t

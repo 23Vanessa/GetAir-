@@ -1,4 +1,4 @@
 [package]
 name = "ebraminio/harfbuzz"
 version = "0.0.2"
-d
+description = "HarfBuzz text shaping 
